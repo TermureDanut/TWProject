@@ -1,0 +1,5110 @@
+{
+    "players": [
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/568544-1695302600.png?lm=1",
+            "shirtNumber": "#32",
+            "name": "Ştefan Târnovanu",
+            "club": "FCSB",
+            "position": "GK",
+            "id": "568544",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/424302-1695303270.png?lm=1",
+            "shirtNumber": "#99",
+            "name": "Andrei Vlad",
+            "club": "FCSB",
+            "position": "GK",
+            "id": "424302",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/786187-1695303467.png?lm=1",
+            "shirtNumber": "#1",
+            "name": "Mihai Udrea",
+            "club": "FCSB",
+            "position": "GK",
+            "id": "786187",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/123261-1657519923.jpg?lm=1",
+            "shirtNumber": "#21",
+            "name": "Vlad Chiricheş",
+            "club": "FCSB",
+            "position": "DEFENDER",
+            "id": "123261",
+            "age": "34"
+        },
+        {
+            "nationality": "Cameroon",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/569743-1695302955.png?lm=1",
+            "shirtNumber": "#5",
+            "name": "Joyskim Dawa",
+            "club": "FCSB",
+            "position": "DEFENDER",
+            "id": "569743",
+            "age": "27"
+        },
+        {
+            "nationality": "South Africa",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/445610-1693995694.png?lm=1",
+            "shirtNumber": "#30",
+            "name": "Siyabonga Ngezana",
+            "club": "FCSB",
+            "position": "DEFENDER",
+            "id": "445610",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/412641-1695303218.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Denis Harut",
+            "club": "FCSB",
+            "position": "DEFENDER",
+            "id": "412641",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1072633-1691146320.png?lm=1",
+            "shirtNumber": "#15",
+            "name": "George Gogescu",
+            "club": "FCSB",
+            "position": "DEFENDER",
+            "id": "1072633",
+            "age": "18"
+        },
+        {
+            "nationality": "Montenegro",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/144339-1695302676.png?lm=1",
+            "shirtNumber": "#33",
+            "name": "Risto Radunovic",
+            "club": "FCSB",
+            "position": "DEFENDER",
+            "id": "144339",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/262117-1660812388.jpg?lm=1",
+            "shirtNumber": "#24",
+            "name": "Cristian Ganea",
+            "club": "FCSB",
+            "position": "DEFENDER",
+            "id": "262117",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/481484-1695303503.png?lm=1",
+            "shirtNumber": "#3",
+            "name": "Ionut Pantiru",
+            "club": "FCSB",
+            "position": "DEFENDER",
+            "id": "481484",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/670828-1695303027.png?lm=1",
+            "shirtNumber": "#28",
+            "name": "Alexandru Pantea",
+            "club": "FCSB",
+            "position": "DEFENDER",
+            "id": "670828",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/79507-1686227372.png?lm=1",
+            "shirtNumber": "#2",
+            "name": "Valentin Cretu",
+            "club": "FCSB",
+            "position": "DEFENDER",
+            "id": "79507",
+            "age": "34"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/433979-1695302638.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Adrian Şut",
+            "club": "FCSB",
+            "position": "MIDFIELDER",
+            "id": "433979",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/289017-1695303584.png?lm=1",
+            "shirtNumber": "#23",
+            "name": "Ovidiu Popescu",
+            "club": "FCSB",
+            "position": "MIDFIELDER",
+            "id": "289017",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/824915-1695303382.png?lm=1",
+            "shirtNumber": "#16",
+            "name": "Mihai Lixandru",
+            "club": "FCSB",
+            "position": "MIDFIELDER",
+            "id": "824915",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/395800-1695302368.png?lm=1",
+            "shirtNumber": "#27",
+            "name": "Darius Olaru",
+            "club": "FCSB",
+            "position": "MIDFIELDER",
+            "id": "395800",
+            "age": "25"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/143039-1695303322.png?lm=1",
+            "shirtNumber": "#88",
+            "name": "Damjan Djokovic",
+            "club": "FCSB",
+            "position": "MIDFIELDER",
+            "id": "143039",
+            "age": "33"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/608478-1657807670.jpeg?lm=1",
+            "shirtNumber": "#18",
+            "name": "Andrei Pandele",
+            "club": "FCSB",
+            "position": "MIDFIELDER",
+            "id": "608478",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/992820-1693993151.png?lm=1",
+            "shirtNumber": "#22",
+            "name": "Mihai Toma",
+            "club": "FCSB",
+            "position": "MIDFIELDER",
+            "id": "992820",
+            "age": "16"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/731522-1695303174.png?lm=1",
+            "shirtNumber": "#80",
+            "name": "Eduard Radaslavescu",
+            "club": "FCSB",
+            "position": "MIDFIELDER",
+            "id": "731522",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/340982-1695302454.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Florinel Coman",
+            "club": "FCSB",
+            "position": "FORWARD",
+            "id": "340982",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/797100-1695302406.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Octavian Popescu",
+            "club": "FCSB",
+            "position": "FORWARD",
+            "id": "797100",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/614800-1695303087.png?lm=1",
+            "shirtNumber": "#11",
+            "name": "David Miculescu",
+            "club": "FCSB",
+            "position": "FORWARD",
+            "id": "614800",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/212746-1691493834.png?lm=1",
+            "shirtNumber": "#25",
+            "name": "Alexandru Băluță",
+            "club": "FCSB",
+            "position": "FORWARD",
+            "id": "212746",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/250573-1635320637.png?lm=1",
+            "shirtNumber": "#29",
+            "name": "Dorin Rotariu",
+            "club": "FCSB",
+            "position": "FORWARD",
+            "id": "250573",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1008222-1694063995.jpg?lm=1",
+            "shirtNumber": "#20",
+            "name": "Dan Spătaru",
+            "club": "FCSB",
+            "position": "FORWARD",
+            "id": "1008222",
+            "age": "18"
+        },
+        {
+            "nationality": "Italy",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/287255-1695302562.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Andrea Compagno",
+            "club": "FCSB",
+            "position": "FORWARD",
+            "id": "287255",
+            "age": "27"
+        },
+        {
+            "nationality": "Italy",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/287255-1695302562.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Andrea Compagno",
+            "club": "FCSB",
+            "position": "FORWARD",
+            "id": "287255",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/426724-1691388329.png?lm=1",
+            "shirtNumber": "#12",
+            "name": "Marian Aioani",
+            "club": "FCV Farul Constanta",
+            "position": "GK",
+            "id": "426724",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/216660-1662121540.png?lm=1",
+            "shirtNumber": "#1",
+            "name": "Alexandru Buzbuchi",
+            "club": "FCV Farul Constanta",
+            "position": "GK",
+            "id": "216660",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Stefan Musat",
+            "club": "FCV Farul Constanta",
+            "position": "GK",
+            "id": "623763",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/361537-1691387954.png?lm=1",
+            "shirtNumber": "#3",
+            "name": "Mihai Popescu",
+            "club": "FCV Farul Constanta",
+            "position": "DEFENDER",
+            "id": "361537",
+            "age": "30"
+        },
+        {
+            "nationality": "Cote d'Ivoire",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/186593-1683099281.png?lm=1",
+            "shirtNumber": "#21",
+            "name": "Kevin Boli",
+            "club": "FCV Farul Constanta",
+            "position": "DEFENDER",
+            "id": "186593",
+            "age": "32"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/46582-1691388712.png?lm=1",
+            "shirtNumber": "#17",
+            "name": "Ionut Larie",
+            "club": "FCV Farul Constanta",
+            "position": "DEFENDER",
+            "id": "46582",
+            "age": "36"
+        },
+        {
+            "nationality": "Portugal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/357148-1692599858.png?lm=1",
+            "shirtNumber": "#5",
+            "name": "Diogo Queirós",
+            "club": "FCV Farul Constanta",
+            "position": "DEFENDER",
+            "id": "357148",
+            "age": "24"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/869463-1691388851.png?lm=1",
+            "shirtNumber": "#45",
+            "name": "Gustavo Marins",
+            "club": "FCV Farul Constanta",
+            "position": "DEFENDER",
+            "id": "869463",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/666434-1631268903.png?lm=1",
+            "shirtNumber": "#15",
+            "name": "Gabriel Danuleasa",
+            "club": "FCV Farul Constanta",
+            "position": "DEFENDER",
+            "id": "666434",
+            "age": "20"
+        },
+        {
+            "nationality": "Benin",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/379870-1662121612.png?lm=1",
+            "shirtNumber": "#25",
+            "name": "David Kiki",
+            "club": "FCV Farul Constanta",
+            "position": "DEFENDER",
+            "id": "379870",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/666463-1654256658.png?lm=1",
+            "shirtNumber": "#22",
+            "name": "Dan Sirbu",
+            "club": "FCV Farul Constanta",
+            "position": "DEFENDER",
+            "id": "666463",
+            "age": "20"
+        },
+        {
+            "nationality": "Martinique",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/205533-1631268558.png?lm=1",
+            "shirtNumber": "#99",
+            "name": "Damien Dussaut",
+            "club": "FCV Farul Constanta",
+            "position": "DEFENDER",
+            "id": "205533",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/568557-1631268848.png?lm=1",
+            "shirtNumber": "#66",
+            "name": "Darius Grosu",
+            "club": "FCV Farul Constanta",
+            "position": "DEFENDER",
+            "id": "568557",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/433976-1691388269.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Tudor Băluţă",
+            "club": "FCV Farul Constanta",
+            "position": "MIDFIELDER",
+            "id": "433976",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/241254-1691388445.png?lm=1",
+            "shirtNumber": "#18",
+            "name": "Andrei Artean",
+            "club": "FCV Farul Constanta",
+            "position": "MIDFIELDER",
+            "id": "241254",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/295868-1691388179.png?lm=1",
+            "shirtNumber": "#16",
+            "name": "Dragos Nedelcu",
+            "club": "FCV Farul Constanta",
+            "position": "MIDFIELDER",
+            "id": "295868",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/608447-1631269855.png?lm=1",
+            "shirtNumber": "#80",
+            "name": "Nicolas Popescu",
+            "club": "FCV Farul Constanta",
+            "position": "MIDFIELDER",
+            "id": "608447",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/869978-1666600133.png?lm=1",
+            "shirtNumber": "#88",
+            "name": "Luca Banu",
+            "club": "FCV Farul Constanta",
+            "position": "MIDFIELDER",
+            "id": "869978",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/568578-1691388041.png?lm=1",
+            "shirtNumber": "#24",
+            "name": "Constantin Grameni",
+            "club": "FCV Farul Constanta",
+            "position": "MIDFIELDER",
+            "id": "568578",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/208828-1676967314.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Ionut Vina",
+            "club": "FCV Farul Constanta",
+            "position": "MIDFIELDER",
+            "id": "208828",
+            "age": "28"
+        },
+        {
+            "nationality": "Belgium",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/503855-1608842470.jpg?lm=1",
+            "shirtNumber": "#20",
+            "name": "Amine Benchaib",
+            "club": "FCV Farul Constanta",
+            "position": "MIDFIELDER",
+            "id": "503855",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/164233-1692599696.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Constantin Budescu",
+            "club": "FCV Farul Constanta",
+            "position": "MIDFIELDER",
+            "id": "164233",
+            "age": "34"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/373089-1692599733.png?lm=1",
+            "shirtNumber": "#11",
+            "name": "Gustavo Costa",
+            "club": "FCV Farul Constanta",
+            "position": "MIDFIELDER",
+            "id": "373089",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/875252-1691388562.png?lm=1",
+            "shirtNumber": "#77",
+            "name": "Enes Sali",
+            "club": "FCV Farul Constanta",
+            "position": "FORWARD",
+            "id": "875252",
+            "age": "17"
+        },
+        {
+            "nationality": "Argentina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/458171-1692599937.png?lm=1",
+            "shirtNumber": "#32",
+            "name": "Marco Borgnino",
+            "club": "FCV Farul Constanta",
+            "position": "FORWARD",
+            "id": "458171",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/723835-1691388383.png?lm=1",
+            "shirtNumber": "#26",
+            "name": "Adrian Mazilu",
+            "club": "FCV Farul Constanta",
+            "position": "FORWARD",
+            "id": "723835",
+            "age": "18"
+        },
+        {
+            "nationality": "Armenia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/545546-1633495446.png?lm=1",
+            "shirtNumber": "#30",
+            "name": "Narek Grigoryan",
+            "club": "FCV Farul Constanta",
+            "position": "FORWARD",
+            "id": "545546",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1050693-1698395364.png?lm=1",
+            "shirtNumber": "#28",
+            "name": "Iustin Doicaru",
+            "club": "FCV Farul Constanta",
+            "position": "FORWARD",
+            "id": "1050693",
+            "age": "16"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/547786-1692599656.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Louis Munteanu",
+            "club": "FCV Farul Constanta",
+            "position": "FORWARD",
+            "id": "547786",
+            "age": "21"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/313968-1676966117.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Rivaldinho",
+            "club": "FCV Farul Constanta",
+            "position": "FORWARD",
+            "id": "313968",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/901511-1662121491.png?lm=1",
+            "shirtNumber": "#27",
+            "name": "Ionut Cojocaru",
+            "club": "FCV Farul Constanta",
+            "position": "FORWARD",
+            "id": "901511",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/666469-1631272875.png?lm=1",
+            "shirtNumber": "#19",
+            "name": "Luca Andronache",
+            "club": "FCV Farul Constanta",
+            "position": "FORWARD",
+            "id": "666469",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/666469-1631272875.png?lm=1",
+            "shirtNumber": "#19",
+            "name": "Luca Andronache",
+            "club": "FCV Farul Constanta",
+            "position": "FORWARD",
+            "id": "666469",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/271289-1676966312.png?lm=1",
+            "shirtNumber": "#21",
+            "name": "Laurentiu Popescu",
+            "club": "Universitatea Craiova",
+            "position": "GK",
+            "id": "271289",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/168278-1676965564.png?lm=1",
+            "shirtNumber": "#1",
+            "name": "David Lazar",
+            "club": "Universitatea Craiova",
+            "position": "GK",
+            "id": "168278",
+            "age": "32"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1158577-1696491419.jpg?lm=1",
+            "shirtNumber": "#1",
+            "name": "Matei Goga",
+            "club": "Universitatea Craiova",
+            "position": "GK",
+            "id": "1158577",
+            "age": "17"
+        },
+        {
+            "nationality": "North Macedonia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/205849-1608792121.jpg?lm=1",
+            "shirtNumber": "#26",
+            "name": "Gjoko Zajkov",
+            "club": "Universitatea Craiova",
+            "position": "DEFENDER",
+            "id": "205849",
+            "age": "28"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/164705-1676967500.png?lm=1",
+            "shirtNumber": "#34",
+            "name": "Raúl Silva",
+            "club": "Universitatea Craiova",
+            "position": "DEFENDER",
+            "id": "164705",
+            "age": "34"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1052377-1676966079.png?lm=1",
+            "shirtNumber": "#15",
+            "name": "Juraj Badelj",
+            "club": "Universitatea Craiova",
+            "position": "DEFENDER",
+            "id": "1052377",
+            "age": "20"
+        },
+        {
+            "nationality": "Senegal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1117983-1678980735.png?lm=1",
+            "shirtNumber": "#3",
+            "name": "Jean Baptiste Mendy",
+            "club": "Universitatea Craiova",
+            "position": "DEFENDER",
+            "id": "1117983",
+            "age": "20"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/945463-1678459060.png?lm=1",
+            "shirtNumber": "#25",
+            "name": "Karlo Tomasec",
+            "club": "Universitatea Craiova",
+            "position": "DEFENDER",
+            "id": "945463",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/213195-1695279790.png?lm=1",
+            "shirtNumber": "#11",
+            "name": "Nicuşor Bancu",
+            "club": "Universitatea Craiova",
+            "position": "DEFENDER",
+            "id": "213195",
+            "age": "31"
+        },
+        {
+            "nationality": "Equatorial Guinea",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/567143-1676965993.png?lm=1",
+            "shirtNumber": "#12",
+            "name": "Basilio Ndong",
+            "club": "Universitatea Craiova",
+            "position": "DEFENDER",
+            "id": "567143",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/869983-1676967388.png?lm=1",
+            "shirtNumber": "#32",
+            "name": "Denis Benga",
+            "club": "Universitatea Craiova",
+            "position": "DEFENDER",
+            "id": "869983",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/451603-1677762111.png?lm=1",
+            "shirtNumber": "#2",
+            "name": "Stefan Vladoiu",
+            "club": "Universitatea Craiova",
+            "position": "DEFENDER",
+            "id": "451603",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/603327-1695279501.png?lm=1",
+            "shirtNumber": "#17",
+            "name": "Florin Borta",
+            "club": "Universitatea Craiova",
+            "position": "DEFENDER",
+            "id": "603327",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/992842-1696491641.jpg?lm=1",
+            "shirtNumber": "#36",
+            "name": "Florin Gaspar",
+            "club": "Universitatea Craiova",
+            "position": "DEFENDER",
+            "id": "992842",
+            "age": "16"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/418219-1676965730.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Vladimir Screciu",
+            "club": "Universitatea Craiova",
+            "position": "MIDFIELDER",
+            "id": "418219",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/216661-1676966045.png?lm=1",
+            "shirtNumber": "#4",
+            "name": "Alexandru Creţu",
+            "club": "Universitatea Craiova",
+            "position": "MIDFIELDER",
+            "id": "216661",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/975195-1676967555.png?lm=1",
+            "shirtNumber": "#35",
+            "name": "David Sala",
+            "club": "Universitatea Craiova",
+            "position": "MIDFIELDER",
+            "id": "975195",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Robert Lapadatescu",
+            "club": "Universitatea Craiova",
+            "position": "MIDFIELDER",
+            "id": "1040564",
+            "age": "17"
+        },
+        {
+            "nationality": "Slovenia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/85825-1596013416.jpg?lm=1",
+            "shirtNumber": "#27",
+            "name": "Jasmin Kurtic",
+            "club": "Universitatea Craiova",
+            "position": "MIDFIELDER",
+            "id": "85825",
+            "age": "34"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/292201-1676967467.png?lm=1",
+            "shirtNumber": "#23",
+            "name": "Mihai Capatina",
+            "club": "Universitatea Craiova",
+            "position": "MIDFIELDER",
+            "id": "292201",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/64193-1676965824.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Alexandru Mateiu",
+            "club": "Universitatea Craiova",
+            "position": "MIDFIELDER",
+            "id": "64193",
+            "age": "33"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/686232-1676966210.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Ştefan Baiaram",
+            "club": "Universitatea Craiova",
+            "position": "MIDFIELDER",
+            "id": "686232",
+            "age": "20"
+        },
+        {
+            "nationality": "France",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/229007-1592154207.jpg?lm=1",
+            "shirtNumber": "#14",
+            "name": "Lyes Houri",
+            "club": "Universitatea Craiova",
+            "position": "MIDFIELDER",
+            "id": "229007",
+            "age": "27"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/226090-1676966358.png?lm=1",
+            "shirtNumber": "#24",
+            "name": "Ante Roguljic",
+            "club": "Universitatea Craiova",
+            "position": "MIDFIELDER",
+            "id": "226090",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/271282-1676965877.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Andrei Ivan",
+            "club": "Universitatea Craiova",
+            "position": "FORWARD",
+            "id": "271282",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/209649-1691396006.png?lm=1",
+            "shirtNumber": "#28",
+            "name": "Alexandru Mitriţă",
+            "club": "Universitatea Craiova",
+            "position": "FORWARD",
+            "id": "209649",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/744076-1676967626.png?lm=1",
+            "shirtNumber": "#37",
+            "name": "Marian Danciu",
+            "club": "Universitatea Craiova",
+            "position": "FORWARD",
+            "id": "744076",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1050692-1696491468.jpg?lm=1",
+            "shirtNumber": "#10",
+            "name": "Cosmin Stana",
+            "club": "Universitatea Craiova",
+            "position": "FORWARD",
+            "id": "1050692",
+            "age": "16"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/672055-1676967355.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Alexandru Isfan",
+            "club": "Universitatea Craiova",
+            "position": "FORWARD",
+            "id": "672055",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Dragos Gaina",
+            "club": "Universitatea Craiova",
+            "position": "FORWARD",
+            "id": "1050694",
+            "age": "16"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/418235-1676967662.png?lm=1",
+            "shirtNumber": "#20",
+            "name": "Jovan Marković",
+            "club": "Universitatea Craiova",
+            "position": "FORWARD",
+            "id": "418235",
+            "age": "22"
+        },
+        {
+            "nationality": "Bosnia-Herzegovina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/296695-1676966268.png?lm=1",
+            "shirtNumber": "#19",
+            "name": "Elvir Koljic",
+            "club": "Universitatea Craiova",
+            "position": "FORWARD",
+            "id": "296695",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/896370-1695279532.png?lm=1",
+            "shirtNumber": "#88",
+            "name": "Atanas Trica",
+            "club": "Universitatea Craiova",
+            "position": "FORWARD",
+            "id": "896370",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/896370-1695279532.png?lm=1",
+            "shirtNumber": "#88",
+            "name": "Atanas Trica",
+            "club": "Universitatea Craiova",
+            "position": "FORWARD",
+            "id": "896370",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/525438-1692032985.png?lm=1",
+            "shirtNumber": "#31",
+            "name": "Horaţiu Moldovan",
+            "club": "FC Rapid Bucharest",
+            "position": "GK",
+            "id": "525438",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/122652-1692022031.png?lm=1",
+            "shirtNumber": "#90",
+            "name": "Virgil Draghia",
+            "club": "FC Rapid Bucharest",
+            "position": "GK",
+            "id": "122652",
+            "age": "33"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "George Ungureanu",
+            "club": "FC Rapid Bucharest",
+            "position": "GK",
+            "id": "1008258",
+            "age": "16"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/331971-1692033711.png?lm=1",
+            "shirtNumber": "#15",
+            "name": "Iulian Cristea",
+            "club": "FC Rapid Bucharest",
+            "position": "DEFENDER",
+            "id": "331971",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/303359-1692034366.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Paul Iacob",
+            "club": "FC Rapid Bucharest",
+            "position": "DEFENDER",
+            "id": "303359",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/25942-1692022163.png?lm=1",
+            "shirtNumber": "#22",
+            "name": "Cristian Sapunaru",
+            "club": "FC Rapid Bucharest",
+            "position": "DEFENDER",
+            "id": "25942",
+            "age": "39"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/95182-1692035188.png?lm=1",
+            "shirtNumber": "#21",
+            "name": "Dragos Grigore",
+            "club": "FC Rapid Bucharest",
+            "position": "DEFENDER",
+            "id": "95182",
+            "age": "37"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Robert Bădescu",
+            "club": "FC Rapid Bucharest",
+            "position": "DEFENDER",
+            "id": "912091",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/723826-1692511839.png?lm=1",
+            "shirtNumber": "#24",
+            "name": "Andrei Borza",
+            "club": "FC Rapid Bucharest",
+            "position": "DEFENDER",
+            "id": "723826",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/536130-1692033866.png?lm=1",
+            "shirtNumber": "#19",
+            "name": "Razvan Onea",
+            "club": "FC Rapid Bucharest",
+            "position": "DEFENDER",
+            "id": "536130",
+            "age": "25"
+        },
+        {
+            "nationality": "Germany",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/82657-1692033941.png?lm=1",
+            "shirtNumber": "#47",
+            "name": "Christopher Braun",
+            "club": "FC Rapid Bucharest",
+            "position": "DEFENDER",
+            "id": "82657",
+            "age": "32"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/372908-1692033746.png?lm=1",
+            "shirtNumber": "#23",
+            "name": "Alexandru Albu",
+            "club": "FC Rapid Bucharest",
+            "position": "MIDFIELDER",
+            "id": "372908",
+            "age": "30"
+        },
+        {
+            "nationality": "Estonia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/205227-1692033984.png?lm=1",
+            "shirtNumber": "#4",
+            "name": "Mattias Käit",
+            "club": "FC Rapid Bucharest",
+            "position": "MIDFIELDER",
+            "id": "205227",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/341141-1692034508.png?lm=1",
+            "shirtNumber": "#26",
+            "name": "Razvan Oaida",
+            "club": "FC Rapid Bucharest",
+            "position": "MIDFIELDER",
+            "id": "341141",
+            "age": "25"
+        },
+        {
+            "nationality": "Spain",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/176067-1692034974.png?lm=1",
+            "shirtNumber": "#11",
+            "name": "Borja Valle",
+            "club": "FC Rapid Bucharest",
+            "position": "MIDFIELDER",
+            "id": "176067",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/575219-1692035276.png?lm=1",
+            "shirtNumber": "#80",
+            "name": "Catalin Cirjan",
+            "club": "FC Rapid Bucharest",
+            "position": "MIDFIELDER",
+            "id": "575219",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Eduard Danila",
+            "club": "FC Rapid Bucharest",
+            "position": "MIDFIELDER",
+            "id": "1144433",
+            "age": "17"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/209664-1692034018.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Alexandru Ioniță II",
+            "club": "FC Rapid Bucharest",
+            "position": "MIDFIELDER",
+            "id": "209664",
+            "age": "28"
+        },
+        {
+            "nationality": "Belgium",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/365449-1692034435.png?lm=1",
+            "shirtNumber": "#25",
+            "name": "Xian Emmers",
+            "club": "FC Rapid Bucharest",
+            "position": "MIDFIELDER",
+            "id": "365449",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/863557-1692035317.png?lm=1",
+            "shirtNumber": "#91",
+            "name": "Omar El Sawy",
+            "club": "FC Rapid Bucharest",
+            "position": "MIDFIELDER",
+            "id": "863557",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1011492-1692035506.png?lm=1",
+            "shirtNumber": "#29",
+            "name": "Gabriel Gheorghe",
+            "club": "FC Rapid Bucharest",
+            "position": "MIDFIELDER",
+            "id": "1011492",
+            "age": "16"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/623424-1692033664.png?lm=1",
+            "shirtNumber": "#27",
+            "name": "Claudiu Petrila",
+            "club": "FC Rapid Bucharest",
+            "position": "FORWARD",
+            "id": "623424",
+            "age": "23"
+        },
+        {
+            "nationality": "France",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/665525-1692035088.png?lm=1",
+            "shirtNumber": "#96",
+            "name": "Jayson Papeau",
+            "club": "FC Rapid Bucharest",
+            "position": "FORWARD",
+            "id": "665525",
+            "age": "27"
+        },
+        {
+            "nationality": "Nigeria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/401921-1692035046.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Funsho Bamgboye",
+            "club": "FC Rapid Bucharest",
+            "position": "FORWARD",
+            "id": "401921",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/710063-1692034397.png?lm=1",
+            "shirtNumber": "#17",
+            "name": "Stefan Panoiu",
+            "club": "FC Rapid Bucharest",
+            "position": "FORWARD",
+            "id": "710063",
+            "age": "21"
+        },
+        {
+            "nationality": "Kosovo",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/903706-1692034481.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Albion Rrahmani",
+            "club": "FC Rapid Bucharest",
+            "position": "FORWARD",
+            "id": "903706",
+            "age": "23"
+        },
+        {
+            "nationality": "Cameroon",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/353959-1697462029.png?lm=1",
+            "shirtNumber": "#93",
+            "name": "Kévin Soni",
+            "club": "FC Rapid Bucharest",
+            "position": "FORWARD",
+            "id": "353959",
+            "age": "25"
+        },
+        {
+            "nationality": "Congo",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/42485-1699441828.jpg?lm=1",
+            "shirtNumber": "#13",
+            "name": "Juvhel Tsoumou",
+            "club": "FC Rapid Bucharest",
+            "position": "FORWARD",
+            "id": "42485",
+            "age": "32"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1088535-1692035478.png?lm=1",
+            "shirtNumber": "#30",
+            "name": "Alexandru Stan",
+            "club": "FC Rapid Bucharest",
+            "position": "FORWARD",
+            "id": "1088535",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1088535-1692035478.png?lm=1",
+            "shirtNumber": "#30",
+            "name": "Alexandru Stan",
+            "club": "FC Rapid Bucharest",
+            "position": "FORWARD",
+            "id": "1088535",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/568617-1661769451.jpg?lm=1",
+            "shirtNumber": "#90",
+            "name": "Răzvan Sava",
+            "club": "CFR Cluj",
+            "position": "GK",
+            "id": "568617",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/744075-1689769762.jpg?lm=1",
+            "shirtNumber": "#89",
+            "name": "Otto Hindrich",
+            "club": "CFR Cluj",
+            "position": "GK",
+            "id": "744075",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/158839-1661769395.jpg?lm=1",
+            "shirtNumber": "#34",
+            "name": "Cristian Balgradean",
+            "club": "CFR Cluj",
+            "position": "GK",
+            "id": "158839",
+            "age": "35"
+        },
+        {
+            "nationality": "Albania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/159288-1691387239.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Arlind Ajeti",
+            "club": "CFR Cluj",
+            "position": "DEFENDER",
+            "id": "159288",
+            "age": "30"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/226080-1691386970.png?lm=1",
+            "shirtNumber": "#44",
+            "name": "Anton Kresic",
+            "club": "CFR Cluj",
+            "position": "DEFENDER",
+            "id": "226080",
+            "age": "27"
+        },
+        {
+            "nationality": "Slovenia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/149810-1689769716.png?lm=1",
+            "shirtNumber": "#42",
+            "name": "Matija Boben",
+            "club": "CFR Cluj",
+            "position": "DEFENDER",
+            "id": "149810",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/615930-1694763931.png?lm=1",
+            "shirtNumber": "#27",
+            "name": "Matei Ilie",
+            "club": "CFR Cluj",
+            "position": "DEFENDER",
+            "id": "615930",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/44698-1661770121.jpg?lm=1",
+            "shirtNumber": "#45",
+            "name": "Mário Camora",
+            "club": "CFR Cluj",
+            "position": "DEFENDER",
+            "id": "44698",
+            "age": "37"
+        },
+        {
+            "nationality": "Israel",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/466541-1691386918.png?lm=1",
+            "shirtNumber": "#3",
+            "name": "Ziv Morgan",
+            "club": "CFR Cluj",
+            "position": "DEFENDER",
+            "id": "466541",
+            "age": "23"
+        },
+        {
+            "nationality": "Kosovo",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/708375-1692038070.png?lm=1",
+            "shirtNumber": "#24",
+            "name": "Rion Zejnullahu",
+            "club": "CFR Cluj",
+            "position": "DEFENDER",
+            "id": "708375",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/271284-1661769568.jpg?lm=1",
+            "shirtNumber": "#4",
+            "name": "Cristian Manea",
+            "club": "CFR Cluj",
+            "position": "DEFENDER",
+            "id": "271284",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/324214-1691387052.png?lm=1",
+            "shirtNumber": "#19",
+            "name": "Vasile Mogos",
+            "club": "CFR Cluj",
+            "position": "DEFENDER",
+            "id": "324214",
+            "age": "31"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/388042-1661770172.jpg?lm=1",
+            "shirtNumber": "#73",
+            "name": "Karlo Muhar",
+            "club": "CFR Cluj",
+            "position": "MIDFIELDER",
+            "id": "388042",
+            "age": "27"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/317467-1661770102.jpg?lm=1",
+            "shirtNumber": "#40",
+            "name": "Lovro Cvek",
+            "club": "CFR Cluj",
+            "position": "MIDFIELDER",
+            "id": "317467",
+            "age": "28"
+        },
+        {
+            "nationality": "Greece",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/62415-1691387094.png?lm=1",
+            "shirtNumber": "#77",
+            "name": "Panagiotis Tachtsidis",
+            "club": "CFR Cluj",
+            "position": "MIDFIELDER",
+            "id": "62415",
+            "age": "32"
+        },
+        {
+            "nationality": "Ghana",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/807786-1691563235.jpg?lm=1",
+            "shirtNumber": "#18",
+            "name": "Isaac Nortey",
+            "club": "CFR Cluj",
+            "position": "MIDFIELDER",
+            "id": "807786",
+            "age": "23"
+        },
+        {
+            "nationality": "Congo",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/416168-1689769794.jpg?lm=1",
+            "shirtNumber": "#29",
+            "name": "Durel Avounou",
+            "club": "CFR Cluj",
+            "position": "MIDFIELDER",
+            "id": "416168",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/692121-1684491634.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Robert Filip",
+            "club": "CFR Cluj",
+            "position": "MIDFIELDER",
+            "id": "692121",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/675506-1689769849.jpg?lm=1",
+            "shirtNumber": "#82",
+            "name": "Alin Fica",
+            "club": "CFR Cluj",
+            "position": "MIDFIELDER",
+            "id": "675506",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/608487-1691563310.png?lm=1",
+            "shirtNumber": "#21",
+            "name": "Luca Mihai",
+            "club": "CFR Cluj",
+            "position": "MIDFIELDER",
+            "id": "608487",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Tudor Lucaci",
+            "club": "CFR Cluj",
+            "position": "MIDFIELDER",
+            "id": "1060188",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1142791-1685457405.jpg?lm=1",
+            "shirtNumber": "#21",
+            "name": "Raul Clemeniuc",
+            "club": "CFR Cluj",
+            "position": "MIDFIELDER",
+            "id": "1142791",
+            "age": "17"
+        },
+        {
+            "nationality": "Kosovo",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/606893-1676917751.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Ermal Krasniqi",
+            "club": "CFR Cluj",
+            "position": "FORWARD",
+            "id": "606893",
+            "age": "25"
+        },
+        {
+            "nationality": "Nigeria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/678655-1689769630.jpg?lm=1",
+            "shirtNumber": "#17",
+            "name": "Philip Otele",
+            "club": "CFR Cluj",
+            "position": "FORWARD",
+            "id": "678655",
+            "age": "24"
+        },
+        {
+            "nationality": "Ukraine",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/58949-1694764128.png?lm=1",
+            "shirtNumber": "#22",
+            "name": "Yevgen Konoplyanka",
+            "club": "CFR Cluj",
+            "position": "FORWARD",
+            "id": "58949",
+            "age": "34"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/43300-1661769819.jpg?lm=1",
+            "shirtNumber": "#10",
+            "name": "Ciprian Deac",
+            "club": "CFR Cluj",
+            "position": "FORWARD",
+            "id": "43300",
+            "age": "37"
+        },
+        {
+            "nationality": "Spain",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/198015-1661769903.jpg?lm=1",
+            "shirtNumber": "#9",
+            "name": "Jefté Betancor",
+            "club": "CFR Cluj",
+            "position": "FORWARD",
+            "id": "198015",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/468192-1661770055.jpg?lm=1",
+            "shirtNumber": "#30",
+            "name": "Daniel Bîrligea",
+            "club": "CFR Cluj",
+            "position": "FORWARD",
+            "id": "468192",
+            "age": "23"
+        },
+        {
+            "nationality": "Bosnia-Herzegovina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/350759-1694764201.png?lm=1",
+            "shirtNumber": "#2",
+            "name": "Luka Juricic",
+            "club": "CFR Cluj",
+            "position": "FORWARD",
+            "id": "350759",
+            "age": "26"
+        },
+        {
+            "nationality": "Moldova",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/635065-1691387614.png?lm=1",
+            "shirtNumber": "#81",
+            "name": "Gheorghe Gondiu",
+            "club": "CFR Cluj",
+            "position": "FORWARD",
+            "id": "635065",
+            "age": "21"
+        },
+        {
+            "nationality": "Moldova",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/635065-1691387614.png?lm=1",
+            "shirtNumber": "#81",
+            "name": "Gheorghe Gondiu",
+            "club": "CFR Cluj",
+            "position": "FORWARD",
+            "id": "635065",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/337619-1693836190.png?lm=1",
+            "shirtNumber": "#33",
+            "name": "Roland Niczuly",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "GK",
+            "id": "337619",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/129501-1688653409.png?lm=1",
+            "shirtNumber": "#1",
+            "name": "Dinu Moldovan",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "GK",
+            "id": "129501",
+            "age": "33"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1012942-1693987006.png?lm=1",
+            "shirtNumber": "#55",
+            "name": "Rajmund Niczuly",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "GK",
+            "id": "1012942",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/911335-1693986908.png?lm=1",
+            "shirtNumber": "#98",
+            "name": "Hunor Gedo",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "GK",
+            "id": "911335",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/236940-1677508095.png?lm=1",
+            "shirtNumber": "#44",
+            "name": "Mihai Bălașa",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "DEFENDER",
+            "id": "236940",
+            "age": "28"
+        },
+        {
+            "nationality": "Slovakia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/260979-1693836269.png?lm=1",
+            "shirtNumber": "#82",
+            "name": "Branislav Ninaj",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "DEFENDER",
+            "id": "260979",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/428593-1693986401.png?lm=1",
+            "shirtNumber": "#13",
+            "name": "Denis Ciobotariu",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "DEFENDER",
+            "id": "428593",
+            "age": "25"
+        },
+        {
+            "nationality": "Hungary",
+            "img_url": "no_image",
+            "name": "Ákos Kecskés",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "DEFENDER",
+            "id": "204155",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Paul Popa",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "DEFENDER",
+            "id": "987065",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1114427-1693987063.png?lm=1",
+            "shirtNumber": "#91",
+            "name": "Krisztian Dobozi",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "DEFENDER",
+            "id": "1114427",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/320637-1692035013.png?lm=1",
+            "shirtNumber": "#3",
+            "name": "Florin Stefan",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "DEFENDER",
+            "id": "320637",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/813000-1693986804.png?lm=1",
+            "shirtNumber": "#25",
+            "name": "Bogdan Otelita",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "DEFENDER",
+            "id": "813000",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/798249-1693986828.png?lm=1",
+            "shirtNumber": "#17",
+            "name": "Darius Oroian",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "DEFENDER",
+            "id": "798249",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/860352-1693836134.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Nicolae Păun",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "MIDFIELDER",
+            "id": "860352",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Denis Renta",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "MIDFIELDER",
+            "id": "1012947",
+            "age": "19"
+        },
+        {
+            "nationality": "North Macedonia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/204659-1693986449.png?lm=1",
+            "shirtNumber": "#21",
+            "name": "Isnik Alimi",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "MIDFIELDER",
+            "id": "204659",
+            "age": "29"
+        },
+        {
+            "nationality": "Argentina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/537768-1693986549.png?lm=1",
+            "shirtNumber": "#5",
+            "name": "Jonathan Rodríguez",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "MIDFIELDER",
+            "id": "537768",
+            "age": "33"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/50806-1693986647.png?lm=1",
+            "shirtNumber": "#77",
+            "name": "Adnan Aganovic",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "MIDFIELDER",
+            "id": "50806",
+            "age": "36"
+        },
+        {
+            "nationality": "Guinea-Bissau",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/215840-1693986735.png?lm=1",
+            "shirtNumber": "#22",
+            "name": "Francisco Júnior",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "MIDFIELDER",
+            "id": "215840",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/436075-1693986360.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Ion Gheorghe",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "MIDFIELDER",
+            "id": "436075",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/81421-1693986492.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Cosmin Matei",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "MIDFIELDER",
+            "id": "81421",
+            "age": "32"
+        },
+        {
+            "nationality": "Albania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/466815-1693986608.png?lm=1",
+            "shirtNumber": "#59",
+            "name": "Sherif Kallaku",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "MIDFIELDER",
+            "id": "466815",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/685795-1629984799.jpg?lm=1",
+            "shirtNumber": "#11",
+            "name": "Marius Ștefănescu",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "FORWARD",
+            "id": "685795",
+            "age": "25"
+        },
+        {
+            "nationality": "Hungary",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/113018-1616227490.jpg?lm=1",
+            "shirtNumber": "#97",
+            "name": "Roland Varga",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "FORWARD",
+            "id": "113018",
+            "age": "33"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/340073-1661769967.jpg?lm=1",
+            "shirtNumber": "#96",
+            "name": "Gabriel Debeljuh",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "FORWARD",
+            "id": "340073",
+            "age": "27"
+        },
+        {
+            "nationality": "Slovakia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/366937-1693836227.png?lm=1",
+            "shirtNumber": "#18",
+            "name": "Pavol Safranko",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "FORWARD",
+            "id": "366937",
+            "age": "28"
+        },
+        {
+            "nationality": "Moldova",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/354136-1693836303.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Vitalie Damaşcan",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "FORWARD",
+            "id": "354136",
+            "age": "24"
+        },
+        {
+            "nationality": "Venezuela",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/119272-1693986691.png?lm=1",
+            "shirtNumber": "#99",
+            "name": "Mario Rondón",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "FORWARD",
+            "id": "119272",
+            "age": "37"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Iustin Grigore",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "FORWARD",
+            "id": "1011424",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Norbert Kocsis",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "FORWARD",
+            "id": "975196",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Norbert Kocsis",
+            "club": "Sepsi OSK Sf. Gheorghe",
+            "position": "FORWARD",
+            "id": "975196",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/677152-1675844426.png?lm=1",
+            "shirtNumber": "#33",
+            "name": "Andrei Gorcea",
+            "club": "FC Universitatea Cluj",
+            "position": "GK",
+            "id": "677152",
+            "age": "22"
+        },
+        {
+            "nationality": "Bulgaria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/156566-1675844908.png?lm=1",
+            "shirtNumber": "#23",
+            "name": "Plamen Iliev",
+            "club": "FC Universitatea Cluj",
+            "position": "GK",
+            "id": "156566",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Iustin Chirila",
+            "club": "FC Universitatea Cluj",
+            "position": "GK",
+            "id": "1154774",
+            "age": "17"
+        },
+        {
+            "nationality": "Argentina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/441098-1634221089.png?lm=1",
+            "shirtNumber": "#25",
+            "name": "Lucas Masoero",
+            "club": "FC Universitatea Cluj",
+            "position": "DEFENDER",
+            "id": "441098",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/332205-1675844454.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Andrei Miron",
+            "club": "FC Universitatea Cluj",
+            "position": "DEFENDER",
+            "id": "332205",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/301258-1675844478.png?lm=1",
+            "shirtNumber": "#17",
+            "name": "Andrei Pitian",
+            "club": "FC Universitatea Cluj",
+            "position": "DEFENDER",
+            "id": "301258",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/208866-1676965625.png?lm=1",
+            "shirtNumber": "#3",
+            "name": "Bogdan Mitrea",
+            "club": "FC Universitatea Cluj",
+            "position": "DEFENDER",
+            "id": "208866",
+            "age": "36"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/213246-1694024787.png?lm=1",
+            "shirtNumber": "#5",
+            "name": "Bogdan Vatajelu",
+            "club": "FC Universitatea Cluj",
+            "position": "DEFENDER",
+            "id": "213246",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/992826-1694606747.jpg?lm=1",
+            "shirtNumber": "#41",
+            "name": "Alin Techeres",
+            "club": "FC Universitatea Cluj",
+            "position": "DEFENDER",
+            "id": "992826",
+            "age": "16"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1040560-1691329815.jpg?lm=1",
+            "shirtNumber": "#93",
+            "name": "Razvan Calugar",
+            "club": "FC Universitatea Cluj",
+            "position": "DEFENDER",
+            "id": "1040560",
+            "age": "17"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/556116-1675844566.png?lm=1",
+            "shirtNumber": "#26",
+            "name": "Dorinel Oancea",
+            "club": "FC Universitatea Cluj",
+            "position": "DEFENDER",
+            "id": "556116",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/192870-1684491444.png?lm=1",
+            "shirtNumber": "#77",
+            "name": "Andrei Peteleu",
+            "club": "FC Universitatea Cluj",
+            "position": "DEFENDER",
+            "id": "192870",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1040558-1694606429.png?lm=1",
+            "shirtNumber": "#43",
+            "name": "Alin Chintes",
+            "club": "FC Universitatea Cluj",
+            "position": "DEFENDER",
+            "id": "1040558",
+            "age": "17"
+        },
+        {
+            "nationality": "Italy",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/110931-1662876878.jpg?lm=1",
+            "shirtNumber": "#21",
+            "name": "Marco Fossati",
+            "club": "FC Universitatea Cluj",
+            "position": "MIDFIELDER",
+            "id": "110931",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/447557-1675844670.png?lm=1",
+            "shirtNumber": "#98",
+            "name": "Gabriel Simion",
+            "club": "FC Universitatea Cluj",
+            "position": "MIDFIELDER",
+            "id": "447557",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/169272-1675844718.png?lm=1",
+            "shirtNumber": "#16",
+            "name": "Ioan Filip",
+            "club": "FC Universitatea Cluj",
+            "position": "MIDFIELDER",
+            "id": "169272",
+            "age": "34"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/623425-1631087374.png?lm=1",
+            "shirtNumber": "#18",
+            "name": "Ovidiu Perianu",
+            "club": "FC Universitatea Cluj",
+            "position": "MIDFIELDER",
+            "id": "623425",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/156639-1694024757.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Dan Nistor",
+            "club": "FC Universitatea Cluj",
+            "position": "MIDFIELDER",
+            "id": "156639",
+            "age": "35"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/220816-1675844856.png?lm=1",
+            "shirtNumber": "#94",
+            "name": "Ovidiu Bic",
+            "club": "FC Universitatea Cluj",
+            "position": "MIDFIELDER",
+            "id": "220816",
+            "age": "29"
+        },
+        {
+            "nationality": "Cote d'Ivoire",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/740191-1662121715.png?lm=1",
+            "shirtNumber": "#4",
+            "name": "Kevin Doukoure",
+            "club": "FC Universitatea Cluj",
+            "position": "MIDFIELDER",
+            "id": "740191",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Alexandru Bota",
+            "club": "FC Universitatea Cluj",
+            "position": "MIDFIELDER",
+            "id": "1118865",
+            "age": "15"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/279927-1694024702.png?lm=1",
+            "shirtNumber": "#59",
+            "name": "Doru Popadiuc",
+            "club": "FC Universitatea Cluj",
+            "position": "MIDFIELDER",
+            "id": "279927",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/823719-1691387554.png?lm=1",
+            "shirtNumber": "#96",
+            "name": "Robert Silaghi",
+            "club": "FC Universitatea Cluj",
+            "position": "MIDFIELDER",
+            "id": "823719",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/453810-1631088523.png?lm=1",
+            "shirtNumber": "#20",
+            "name": "Valentin Gheorghe",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "453810",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/244548-1663148835.JPG?lm=1",
+            "shirtNumber": "#8",
+            "name": "Andreias Calcan",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "244548",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/687846-1676965771.png?lm=1",
+            "shirtNumber": "#28",
+            "name": "Alexandru Cîmpanu",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "687846",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/64126-1675844403.png?lm=1",
+            "shirtNumber": "#27",
+            "name": "Alexandru Chipciu",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "64126",
+            "age": "34"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/547754-1675844692.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Ianis Stoica",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "547754",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/341364-1694024677.png?lm=1",
+            "shirtNumber": "#19",
+            "name": "Daniel Popa",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "341364",
+            "age": "28"
+        },
+        {
+            "nationality": "Netherlands",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/198070-1661633151.png?lm=1",
+            "shirtNumber": "#45",
+            "name": "Elvis Manu",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "198070",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/700772-1675844588.png?lm=1",
+            "shirtNumber": "#11",
+            "name": "Dragos Tescan",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "700772",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Albert Hofman",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "916301",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/608465-1694024014.jpg?lm=1",
+            "shirtNumber": "#9",
+            "name": "Filip Ilie",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "608465",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1154775-1694024589.png?lm=1",
+            "shirtNumber": "#30",
+            "name": "Luca Nagy",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "1154775",
+            "age": "17"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1154775-1694024589.png?lm=1",
+            "shirtNumber": "#30",
+            "name": "Luca Nagy",
+            "club": "FC Universitatea Cluj",
+            "position": "FORWARD",
+            "id": "1154775",
+            "age": "17"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/568618-1698221136.png?lm=1",
+            "shirtNumber": "#31",
+            "name": "Robert Popa",
+            "club": "FC U Craiova 1948",
+            "position": "GK",
+            "id": "568618",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/464278-1662106230.JPG?lm=1",
+            "shirtNumber": "#50",
+            "name": "Ionut Gurau",
+            "club": "FC U Craiova 1948",
+            "position": "GK",
+            "id": "464278",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/287222-1662106530.JPG?lm=1",
+            "shirtNumber": "#1",
+            "name": "Sorin Mogosanu",
+            "club": "FC U Craiova 1948",
+            "position": "GK",
+            "id": "287222",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/809372-1662106385.JPG?lm=1",
+            "shirtNumber": "#22",
+            "name": "Mario Enache",
+            "club": "FC U Craiova 1948",
+            "position": "GK",
+            "id": "809372",
+            "age": "20"
+        },
+        {
+            "nationality": "Netherlands",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/411502-1698221032.png?lm=1",
+            "shirtNumber": "#14",
+            "name": "Danny Henriques",
+            "club": "FC U Craiova 1948",
+            "position": "DEFENDER",
+            "id": "411502",
+            "age": "26"
+        },
+        {
+            "nationality": "Greece",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/464529-1689684586.jpeg?lm=1",
+            "shirtNumber": "#25",
+            "name": "Apostolos Diamantis",
+            "club": "FC U Craiova 1948",
+            "position": "DEFENDER",
+            "id": "464529",
+            "age": "23"
+        },
+        {
+            "nationality": "Switzerland",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/149652-1693992372.png?lm=1",
+            "shirtNumber": "#4",
+            "name": "Léo Lacroix",
+            "club": "FC U Craiova 1948",
+            "position": "DEFENDER",
+            "id": "149652",
+            "age": "31"
+        },
+        {
+            "nationality": "Bosnia-Herzegovina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/650204-1627059942.png?lm=1",
+            "shirtNumber": "#5",
+            "name": "Amar Kvakic",
+            "club": "FC U Craiova 1948",
+            "position": "DEFENDER",
+            "id": "650204",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/724115-1679483604.jpg?lm=1",
+            "shirtNumber": "#79",
+            "name": "Gabriel Buta",
+            "club": "FC U Craiova 1948",
+            "position": "DEFENDER",
+            "id": "724115",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1060879-1698220731.png?lm=1",
+            "shirtNumber": "#19",
+            "name": "Alexandru Iordache",
+            "club": "FC U Craiova 1948",
+            "position": "DEFENDER",
+            "id": "1060879",
+            "age": "20"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/503766-1675932045.jpg?lm=1",
+            "shirtNumber": "#16",
+            "name": "Matheus Mascarenhas",
+            "club": "FC U Craiova 1948",
+            "position": "DEFENDER",
+            "id": "503766",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/334665-1518520334.jpg?lm=1",
+            "shirtNumber": "#72",
+            "name": "Andrea Padula",
+            "club": "FC U Craiova 1948",
+            "position": "DEFENDER",
+            "id": "334665",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/749104-1698220933.png?lm=1",
+            "shirtNumber": "#2",
+            "name": "Radu Negru",
+            "club": "FC U Craiova 1948",
+            "position": "DEFENDER",
+            "id": "749104",
+            "age": "24"
+        },
+        {
+            "nationality": "Argentina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/538608-1691330150.jpg?lm=1",
+            "shirtNumber": "#18",
+            "name": "Gabriel Compagnucci",
+            "club": "FC U Craiova 1948",
+            "position": "DEFENDER",
+            "id": "538608",
+            "age": "32"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/528694-1675932179.jpg?lm=1",
+            "shirtNumber": "#98",
+            "name": "Alexandru Voda",
+            "club": "FC U Craiova 1948",
+            "position": "DEFENDER",
+            "id": "528694",
+            "age": "25"
+        },
+        {
+            "nationality": "Togo",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/232848-1698220987.png?lm=1",
+            "shirtNumber": "#77",
+            "name": "Samuel Asamoah",
+            "club": "FC U Craiova 1948",
+            "position": "MIDFIELDER",
+            "id": "232848",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/69402-1662106575.JPG?lm=1",
+            "shirtNumber": "#6",
+            "name": "Vlad Achim",
+            "club": "FC U Craiova 1948",
+            "position": "MIDFIELDER",
+            "id": "69402",
+            "age": "34"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/547820-1662106088.JPG?lm=1",
+            "shirtNumber": "#8",
+            "name": "Dragos Albu",
+            "club": "FC U Craiova 1948",
+            "position": "MIDFIELDER",
+            "id": "547820",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/341374-1687435441.jpg?lm=1",
+            "shirtNumber": "#23",
+            "name": "Vlad Pop",
+            "club": "FC U Craiova 1948",
+            "position": "MIDFIELDER",
+            "id": "341374",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/749103-1662106249.JPG?lm=1",
+            "shirtNumber": "#20",
+            "name": "Ionut Zanfir",
+            "club": "FC U Craiova 1948",
+            "position": "MIDFIELDER",
+            "id": "749103",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/990109-1662106201.JPG?lm=1",
+            "shirtNumber": "#25",
+            "name": "Hristu Sofianu",
+            "club": "FC U Craiova 1948",
+            "position": "MIDFIELDER",
+            "id": "990109",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1072069-1675932074.jpg?lm=1",
+            "shirtNumber": "#29",
+            "name": "Lucian Duta",
+            "club": "FC U Craiova 1948",
+            "position": "MIDFIELDER",
+            "id": "1072069",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/809357-1662105661.JPG?lm=1",
+            "shirtNumber": "#15",
+            "name": "Alexandru Blidar",
+            "club": "FC U Craiova 1948",
+            "position": "MIDFIELDER",
+            "id": "809357",
+            "age": "20"
+        },
+        {
+            "nationality": "Belgium",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/434514-1662105975.JPG?lm=1",
+            "shirtNumber": "#30",
+            "name": "Benjamin Van Durmen",
+            "club": "FC U Craiova 1948",
+            "position": "MIDFIELDER",
+            "id": "434514",
+            "age": "26"
+        },
+        {
+            "nationality": "Argentina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/470324-1698220779.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Juan Bauza",
+            "club": "FC U Craiova 1948",
+            "position": "MIDFIELDER",
+            "id": "470324",
+            "age": "27"
+        },
+        {
+            "nationality": "Ghana",
+            "img_url": "no_image",
+            "name": "Moses Abbey",
+            "club": "FC U Craiova 1948",
+            "position": "MIDFIELDER",
+            "id": "867947",
+            "age": "21"
+        },
+        {
+            "nationality": "France",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/692087-1698221089.png?lm=1",
+            "shirtNumber": "#28",
+            "name": "Yassine Bahassa",
+            "club": "FC U Craiova 1948",
+            "position": "FORWARD",
+            "id": "692087",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1072047-1675932117.jpg?lm=1",
+            "shirtNumber": "#26",
+            "name": "Bogdan Duta",
+            "club": "FC U Craiova 1948",
+            "position": "FORWARD",
+            "id": "1072047",
+            "age": "18"
+        },
+        {
+            "nationality": "Belgium",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/449879-1698220841.png?lm=1",
+            "shirtNumber": "#24",
+            "name": "William Baeten",
+            "club": "FC U Craiova 1948",
+            "position": "FORWARD",
+            "id": "449879",
+            "age": "26"
+        },
+        {
+            "nationality": "Belgium",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/409513-1662106506.JPG?lm=1",
+            "shirtNumber": "#51",
+            "name": "Sekou Sidibe",
+            "club": "FC U Craiova 1948",
+            "position": "FORWARD",
+            "id": "409513",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/791473-1675932158.jpg?lm=1",
+            "shirtNumber": "#74",
+            "name": "Marius Ciobanu-Vanghele",
+            "club": "FC U Craiova 1948",
+            "position": "FORWARD",
+            "id": "791473",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1082103-1691330111.jpg?lm=1",
+            "shirtNumber": "#27",
+            "name": "Mario Ilie",
+            "club": "FC U Craiova 1948",
+            "position": "FORWARD",
+            "id": "1082103",
+            "age": "16"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/164236-1662105913.JPG?lm=1",
+            "shirtNumber": "#11",
+            "name": "Aurelian Chitu",
+            "club": "FC U Craiova 1948",
+            "position": "FORWARD",
+            "id": "164236",
+            "age": "32"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/706166-1648294460.png?lm=1",
+            "shirtNumber": "#99",
+            "name": "Vladislav Blănuță",
+            "club": "FC U Craiova 1948",
+            "position": "FORWARD",
+            "id": "706166",
+            "age": "21"
+        },
+        {
+            "nationality": "Nigeria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/904958-1698220585.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Jibril Ibrahim",
+            "club": "FC U Craiova 1948",
+            "position": "FORWARD",
+            "id": "904958",
+            "age": "20"
+        },
+        {
+            "nationality": "Nigeria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/904958-1698220585.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Jibril Ibrahim",
+            "club": "FC U Craiova 1948",
+            "position": "FORWARD",
+            "id": "904958",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/315442-1695106351.png?lm=1",
+            "shirtNumber": "#25",
+            "name": "Catalin Cabuz",
+            "club": "FC Hermannstadt",
+            "position": "GK",
+            "id": "315442",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/309016-1695106999.png?lm=1",
+            "shirtNumber": "#31",
+            "name": "Vlad Mutiu",
+            "club": "FC Hermannstadt",
+            "position": "GK",
+            "id": "309016",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/940627-1695107154.png?lm=1",
+            "shirtNumber": "#1",
+            "name": "Alexandru Utiu",
+            "club": "FC Hermannstadt",
+            "position": "GK",
+            "id": "940627",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/147993-1695106572.png?lm=1",
+            "shirtNumber": "#5",
+            "name": "Florin Bejan",
+            "club": "FC Hermannstadt",
+            "position": "DEFENDER",
+            "id": "147993",
+            "age": "32"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/47576-1695106951.png?lm=1",
+            "shirtNumber": "#27",
+            "name": "Valerică Găman",
+            "club": "FC Hermannstadt",
+            "position": "DEFENDER",
+            "id": "47576",
+            "age": "34"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/241584-1695106756.png?lm=1",
+            "shirtNumber": "#4",
+            "name": "Ionut Stoica",
+            "club": "FC Hermannstadt",
+            "position": "DEFENDER",
+            "id": "241584",
+            "age": "35"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/226545-1695106877.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Marius Antoche",
+            "club": "FC Hermannstadt",
+            "position": "DEFENDER",
+            "id": "226545",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/710076-1695107212.png?lm=1",
+            "shirtNumber": "#98",
+            "name": "Kevin Ciubotaru",
+            "club": "FC Hermannstadt",
+            "position": "DEFENDER",
+            "id": "710076",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/375712-1695106094.png?lm=1",
+            "shirtNumber": "#17",
+            "name": "Mihai Butean",
+            "club": "FC Hermannstadt",
+            "position": "DEFENDER",
+            "id": "375712",
+            "age": "27"
+        },
+        {
+            "nationality": "Mexico",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/370863-1695106900.png?lm=1",
+            "shirtNumber": "#2",
+            "name": "Paolo Medina",
+            "club": "FC Hermannstadt",
+            "position": "DEFENDER",
+            "id": "370863",
+            "age": "24"
+        },
+        {
+            "nationality": "Ghana",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/626899-1695106121.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Baba Alhassan",
+            "club": "FC Hermannstadt",
+            "position": "MIDFIELDER",
+            "id": "626899",
+            "age": "23"
+        },
+        {
+            "nationality": "Japan",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/474909-1695106311.png?lm=1",
+            "shirtNumber": "#14",
+            "name": "Sota Mino",
+            "club": "FC Hermannstadt",
+            "position": "MIDFIELDER",
+            "id": "474909",
+            "age": "29"
+        },
+        {
+            "nationality": "Italy",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/289061-1695106514.png?lm=1",
+            "shirtNumber": "#16",
+            "name": "Alessandro Murgia",
+            "club": "FC Hermannstadt",
+            "position": "MIDFIELDER",
+            "id": "289061",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/241259-1695106702.png?lm=1",
+            "shirtNumber": "#29",
+            "name": "Ciprian Biceanu",
+            "club": "FC Hermannstadt",
+            "position": "MIDFIELDER",
+            "id": "241259",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/878792-1695107045.png?lm=1",
+            "shirtNumber": "#11",
+            "name": "Dragos Iancu",
+            "club": "FC Hermannstadt",
+            "position": "MIDFIELDER",
+            "id": "878792",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/938289-1695107098.png?lm=1",
+            "shirtNumber": "#97",
+            "name": "Alexandru Jipa",
+            "club": "FC Hermannstadt",
+            "position": "MIDFIELDER",
+            "id": "938289",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/430836-1695106422.png?lm=1",
+            "shirtNumber": "#26",
+            "name": "Cristian Negut",
+            "club": "FC Hermannstadt",
+            "position": "MIDFIELDER",
+            "id": "430836",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/296585-1695106383.png?lm=1",
+            "shirtNumber": "#96",
+            "name": "Silviu Balaure",
+            "club": "FC Hermannstadt",
+            "position": "FORWARD",
+            "id": "296585",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/614623-1695106783.png?lm=1",
+            "shirtNumber": "#51",
+            "name": "Alexandru Oroian",
+            "club": "FC Hermannstadt",
+            "position": "FORWARD",
+            "id": "614623",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/262108-1695106490.png?lm=1",
+            "shirtNumber": "#20",
+            "name": "Cristi Barbut",
+            "club": "FC Hermannstadt",
+            "position": "FORWARD",
+            "id": "262108",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/241343-1695106729.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Petrisor Petrescu",
+            "club": "FC Hermannstadt",
+            "position": "FORWARD",
+            "id": "241343",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Alexandru Dusmanu",
+            "club": "FC Hermannstadt",
+            "position": "FORWARD",
+            "id": "915678",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/938636-1695107184.png?lm=1",
+            "shirtNumber": "#21",
+            "name": "Cosmin Bucuroiu",
+            "club": "FC Hermannstadt",
+            "position": "FORWARD",
+            "id": "938636",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/605543-1695106055.png?lm=1",
+            "shirtNumber": "#30",
+            "name": "Daniel Paraschiv",
+            "club": "FC Hermannstadt",
+            "position": "FORWARD",
+            "id": "605543",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/164254-1695106149.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Gabriel Iancu",
+            "club": "FC Hermannstadt",
+            "position": "FORWARD",
+            "id": "164254",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/365769-1695106547.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Adrian Petre",
+            "club": "FC Hermannstadt",
+            "position": "FORWARD",
+            "id": "365769",
+            "age": "25"
+        },
+        {
+            "nationality": "Portugal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/648027-1693996127.png?lm=1",
+            "shirtNumber": "#99",
+            "name": "Rúben Fonseca",
+            "club": "FC Hermannstadt",
+            "position": "FORWARD",
+            "id": "648027",
+            "age": "23"
+        },
+        {
+            "nationality": "Portugal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/648027-1693996127.png?lm=1",
+            "shirtNumber": "#99",
+            "name": "Rúben Fonseca",
+            "club": "FC Hermannstadt",
+            "position": "FORWARD",
+            "id": "648027",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/252192-1691670889.png?lm=1",
+            "shirtNumber": "#1",
+            "name": "Octavian Vâlceanu",
+            "club": "FC Voluntari",
+            "position": "GK",
+            "id": "252192",
+            "age": "27"
+        },
+        {
+            "nationality": "Spain",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/91885-1691672730.png?lm=1",
+            "shirtNumber": "#88",
+            "name": "Jesús Fernández",
+            "club": "FC Voluntari",
+            "position": "GK",
+            "id": "91885",
+            "age": "35"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Valentin Margarit",
+            "club": "FC Voluntari",
+            "position": "GK",
+            "id": "670830",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/213699-1490271930.jpg?lm=1",
+            "shirtNumber": "#12",
+            "name": "Victor Rimniceanu",
+            "club": "FC Voluntari",
+            "position": "GK",
+            "id": "213699",
+            "age": "33"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Bogdan Stefan",
+            "club": "FC Voluntari",
+            "position": "GK",
+            "id": "1061296",
+            "age": "17"
+        },
+        {
+            "nationality": "Argentina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/283585-1691671463.png?lm=1",
+            "shirtNumber": "#34",
+            "name": "Patricio Matricardi",
+            "club": "FC Voluntari",
+            "position": "DEFENDER",
+            "id": "283585",
+            "age": "29"
+        },
+        {
+            "nationality": "Argentina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/357338-1691672160.png?lm=1",
+            "shirtNumber": "#2",
+            "name": "Cristian Paz",
+            "club": "FC Voluntari",
+            "position": "DEFENDER",
+            "id": "357338",
+            "age": "28"
+        },
+        {
+            "nationality": "Moldova",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/64667-1691672088.png?lm=1",
+            "shirtNumber": "#5",
+            "name": "Igor Armaş",
+            "club": "FC Voluntari",
+            "position": "DEFENDER",
+            "id": "64667",
+            "age": "36"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/902110-1691673950.png?lm=1",
+            "shirtNumber": "#28",
+            "name": "Ionut Andres",
+            "club": "FC Voluntari",
+            "position": "DEFENDER",
+            "id": "902110",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/575217-1691674951.jpg?lm=1",
+            "shirtNumber": "#35",
+            "name": "Alexandru Chilili",
+            "club": "FC Voluntari",
+            "position": "DEFENDER",
+            "id": "575217",
+            "age": "21"
+        },
+        {
+            "nationality": "Albania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/172982-1691671658.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Naser Aliji",
+            "club": "FC Voluntari",
+            "position": "DEFENDER",
+            "id": "172982",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/319202-1691670851.png?lm=1",
+            "shirtNumber": "#27",
+            "name": "Radu Boboc",
+            "club": "FC Voluntari",
+            "position": "DEFENDER",
+            "id": "319202",
+            "age": "24"
+        },
+        {
+            "nationality": "Portugal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/337537-1691670941.png?lm=1",
+            "shirtNumber": "#24",
+            "name": "Ricardinho",
+            "club": "FC Voluntari",
+            "position": "DEFENDER",
+            "id": "337537",
+            "age": "29"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "no_image",
+            "name": "Ljuban Crepulja",
+            "club": "FC Voluntari",
+            "position": "MIDFIELDER",
+            "id": "238474",
+            "age": "30"
+        },
+        {
+            "nationality": "Czech Republic",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/81959-1691672449.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Lukas Droppa",
+            "club": "FC Voluntari",
+            "position": "MIDFIELDER",
+            "id": "81959",
+            "age": "34"
+        },
+        {
+            "nationality": "Moldova",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/136128-1691670760.png?lm=1",
+            "shirtNumber": "#22",
+            "name": "Vadim Rață",
+            "club": "FC Voluntari",
+            "position": "MIDFIELDER",
+            "id": "136128",
+            "age": "30"
+        },
+        {
+            "nationality": "Iceland",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/90008-1691671216.png?lm=1",
+            "shirtNumber": "#16",
+            "name": "Rúnar Már Sigurjónsson",
+            "club": "FC Voluntari",
+            "position": "MIDFIELDER",
+            "id": "90008",
+            "age": "33"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/478052-1691672206.png?lm=1",
+            "shirtNumber": "#25",
+            "name": "Angelo Cocian",
+            "club": "FC Voluntari",
+            "position": "MIDFIELDER",
+            "id": "478052",
+            "age": "23"
+        },
+        {
+            "nationality": "Bosnia-Herzegovina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/678924-1693853664.jpg?lm=1",
+            "shirtNumber": "#19",
+            "name": "Luka Bozickovic",
+            "club": "FC Voluntari",
+            "position": "MIDFIELDER",
+            "id": "678924",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Roberto Voican",
+            "club": "FC Voluntari",
+            "position": "MIDFIELDER",
+            "id": "1036953",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Doru Andrei",
+            "club": "FC Voluntari",
+            "position": "MIDFIELDER",
+            "id": "806193",
+            "age": "20"
+        },
+        {
+            "nationality": "Cape Verde",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/279355-1691672029.png?lm=1",
+            "shirtNumber": "#14",
+            "name": "Marcelo Lopes",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "279355",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/96850-1691672796.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Mihai Radut",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "96850",
+            "age": "33"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/975248-1691673620.png?lm=1",
+            "shirtNumber": "#29",
+            "name": "Eduard Lambrinoc",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "975248",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/986504-1691674219.png?lm=1",
+            "shirtNumber": "#20",
+            "name": "Robert Popescu",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "986504",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/811106-1691674170.png?lm=1",
+            "shirtNumber": "#90",
+            "name": "Alexandru Munteanu",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "811106",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/341140-1683291198.jpeg?lm=1",
+            "shirtNumber": "#23",
+            "name": "Nicolae Carnat",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "341140",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/530697-1691672854.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "George Merloi",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "530697",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1171279-1692984950.png?lm=1",
+            "shirtNumber": "#21",
+            "name": "Andreas Nita",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "1171279",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/728521-1698174341.jpg?lm=1",
+            "shirtNumber": "#80",
+            "name": "Robert Mustaca",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "728521",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/46543-1691672249.png?lm=1",
+            "shirtNumber": "#11",
+            "name": "Daniel Florea",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "46543",
+            "age": "35"
+        },
+        {
+            "nationality": "Slovakia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/55210-1691672615.png?lm=1",
+            "shirtNumber": "#77",
+            "name": "Adam Nemec",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "55210",
+            "age": "38"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/466722-1691672667.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Andrei Dumiter",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "466722",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/937068-1691674832.jpg?lm=1",
+            "shirtNumber": "#99",
+            "name": "Andrei Dima",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "937068",
+            "age": "17"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/937068-1691674832.jpg?lm=1",
+            "shirtNumber": "#99",
+            "name": "Andrei Dima",
+            "club": "FC Voluntari",
+            "position": "FORWARD",
+            "id": "937068",
+            "age": "17"
+        },
+        {
+            "nationality": "Czech Republic",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/147558-1693898260.png?lm=1",
+            "shirtNumber": "#38",
+            "name": "Lukas Zima",
+            "club": "Petrolul Ploiesti",
+            "position": "GK",
+            "id": "147558",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/203089-1693898366.png?lm=1",
+            "shirtNumber": "#1",
+            "name": "George Gavrilas",
+            "club": "Petrolul Ploiesti",
+            "position": "GK",
+            "id": "203089",
+            "age": "32"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/436072-1688653544.png?lm=1",
+            "shirtNumber": "#12",
+            "name": "Mihai Esanu",
+            "club": "Petrolul Ploiesti",
+            "position": "GK",
+            "id": "436072",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Alexandru Radu",
+            "club": "Petrolul Ploiesti",
+            "position": "GK",
+            "id": "971417",
+            "age": "20"
+        },
+        {
+            "nationality": "Netherlands",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/342719-1693897696.png?lm=1",
+            "shirtNumber": "#3",
+            "name": "Bart Meijers",
+            "club": "Petrolul Ploiesti",
+            "position": "DEFENDER",
+            "id": "342719",
+            "age": "26"
+        },
+        {
+            "nationality": "Portugal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/478347-1693836432.png?lm=1",
+            "shirtNumber": "#2",
+            "name": "Marian Huja",
+            "club": "Petrolul Ploiesti",
+            "position": "DEFENDER",
+            "id": "478347",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/112552-1693898735.png?lm=1",
+            "shirtNumber": "#4",
+            "name": "Paul Papp",
+            "club": "Petrolul Ploiesti",
+            "position": "DEFENDER",
+            "id": "112552",
+            "age": "34"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/520084-1693898231.png?lm=1",
+            "shirtNumber": "#34",
+            "name": "Guilherme Garutti",
+            "club": "Petrolul Ploiesti",
+            "position": "DEFENDER",
+            "id": "520084",
+            "age": "29"
+        },
+        {
+            "nationality": "Guinea-Bissau",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/357988-1693898189.png?lm=1",
+            "shirtNumber": "#27",
+            "name": "Pedro Justiniano",
+            "club": "Petrolul Ploiesti",
+            "position": "DEFENDER",
+            "id": "357988",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/623420-1693897659.png?lm=1",
+            "shirtNumber": "#5",
+            "name": "Valentin Țicu",
+            "club": "Petrolul Ploiesti",
+            "position": "DEFENDER",
+            "id": "623420",
+            "age": "23"
+        },
+        {
+            "nationality": "Cote d'Ivoire",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1098513-1674505534.jpg?lm=1",
+            "shirtNumber": "#71",
+            "name": "Seniko Doua",
+            "club": "Petrolul Ploiesti",
+            "position": "DEFENDER",
+            "id": "1098513",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/641989-1681241151.jpg?lm=1",
+            "shirtNumber": "#22",
+            "name": "Denis Radu",
+            "club": "Petrolul Ploiesti",
+            "position": "DEFENDER",
+            "id": "641989",
+            "age": "20"
+        },
+        {
+            "nationality": "Japan",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/97562-1693898397.png?lm=1",
+            "shirtNumber": "#11",
+            "name": "Takayuki Seto",
+            "club": "Petrolul Ploiesti",
+            "position": "MIDFIELDER",
+            "id": "97562",
+            "age": "37"
+        },
+        {
+            "nationality": "Cote d'Ivoire",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/170495-1633107282.png?lm=1",
+            "shirtNumber": "#82",
+            "name": "Ismael Diomande",
+            "club": "Petrolul Ploiesti",
+            "position": "MIDFIELDER",
+            "id": "170495",
+            "age": "31"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/432742-1674142588.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Jair",
+            "club": "Petrolul Ploiesti",
+            "position": "MIDFIELDER",
+            "id": "432742",
+            "age": "29"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/252922-1693898009.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Jefferson",
+            "club": "Petrolul Ploiesti",
+            "position": "MIDFIELDER",
+            "id": "252922",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/287418-1693898094.png?lm=1",
+            "shirtNumber": "#44",
+            "name": "Lucian Dumitriu",
+            "club": "Petrolul Ploiesti",
+            "position": "MIDFIELDER",
+            "id": "287418",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/730807-1693898563.png?lm=1",
+            "shirtNumber": "#95",
+            "name": "Mihai Constantinescu",
+            "club": "Petrolul Ploiesti",
+            "position": "MIDFIELDER",
+            "id": "730807",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/700768-1695191455.jpeg?lm=1",
+            "shirtNumber": "#98",
+            "name": "Mario Bratu",
+            "club": "Petrolul Ploiesti",
+            "position": "MIDFIELDER",
+            "id": "700768",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/881064-1679476388.jpg?lm=1",
+            "shirtNumber": "#99",
+            "name": "Alexandru Musi",
+            "club": "Petrolul Ploiesti",
+            "position": "MIDFIELDER",
+            "id": "881064",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Alessio Tudor",
+            "club": "Petrolul Ploiesti",
+            "position": "MIDFIELDER",
+            "id": "937049",
+            "age": "17"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/319255-1695191255.png?lm=1",
+            "shirtNumber": "#14",
+            "name": "David Vraciu",
+            "club": "Petrolul Ploiesti",
+            "position": "MIDFIELDER",
+            "id": "319255",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/96844-1693897856.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Gheorghe Grozav",
+            "club": "Petrolul Ploiesti",
+            "position": "FORWARD",
+            "id": "96844",
+            "age": "33"
+        },
+        {
+            "nationality": "Georgia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/677057-1695191482.jpg?lm=1",
+            "shirtNumber": "#23",
+            "name": "Giorgi Abuashvili",
+            "club": "Petrolul Ploiesti",
+            "position": "FORWARD",
+            "id": "677057",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/212806-1676967419.png?lm=1",
+            "shirtNumber": "#20",
+            "name": "Sergiu Hanca",
+            "club": "Petrolul Ploiesti",
+            "position": "FORWARD",
+            "id": "212806",
+            "age": "31"
+        },
+        {
+            "nationality": "Montenegro",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/293254-1693898127.png?lm=1",
+            "shirtNumber": "#17",
+            "name": "Zoran Petrovic",
+            "club": "Petrolul Ploiesti",
+            "position": "FORWARD",
+            "id": "293254",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1017320-1693898673.png?lm=1",
+            "shirtNumber": "#41",
+            "name": "Mihnea Rădulescu",
+            "club": "Petrolul Ploiesti",
+            "position": "FORWARD",
+            "id": "1017320",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/740986-1693898593.png?lm=1",
+            "shirtNumber": "#93",
+            "name": "Zoran Mitrov",
+            "club": "Petrolul Ploiesti",
+            "position": "FORWARD",
+            "id": "740986",
+            "age": "21"
+        },
+        {
+            "nationality": "Algeria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/131589-1669303414.jpg?lm=1",
+            "shirtNumber": "#9",
+            "name": "Billel Omrani",
+            "club": "Petrolul Ploiesti",
+            "position": "FORWARD",
+            "id": "131589",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/135566-1691147102.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Mihai Roman II",
+            "club": "Petrolul Ploiesti",
+            "position": "FORWARD",
+            "id": "135566",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/989197-1693898626.png?lm=1",
+            "shirtNumber": "#13",
+            "name": "Iustin Răducan",
+            "club": "Petrolul Ploiesti",
+            "position": "FORWARD",
+            "id": "989197",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/989197-1693898626.png?lm=1",
+            "shirtNumber": "#13",
+            "name": "Iustin Răducan",
+            "club": "Petrolul Ploiesti",
+            "position": "FORWARD",
+            "id": "989197",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/186028-1693835029.png?lm=1",
+            "shirtNumber": "#93",
+            "name": "Florin Iacob",
+            "club": "UTA Arad",
+            "position": "GK",
+            "id": "186028",
+            "age": "30"
+        },
+        {
+            "nationality": "Ukraine",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/427341-1693835297.png?lm=1",
+            "shirtNumber": "#13",
+            "name": "Danylo Kucher",
+            "club": "UTA Arad",
+            "position": "GK",
+            "id": "427341",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/600635-1589325553.jpg?lm=1",
+            "shirtNumber": "#33",
+            "name": "Denis Lungu-Bocean",
+            "club": "UTA Arad",
+            "position": "GK",
+            "id": "600635",
+            "age": "20"
+        },
+        {
+            "nationality": "Guinea",
+            "img_url": "no_image",
+            "name": "Ibrahima Conté",
+            "club": "UTA Arad",
+            "position": "DEFENDER",
+            "id": "358512",
+            "age": "27"
+        },
+        {
+            "nationality": "Greece",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/348298-1693985923.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Stefanos Stroungis",
+            "club": "UTA Arad",
+            "position": "DEFENDER",
+            "id": "348298",
+            "age": "26"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/226095-1665497946.png?lm=1",
+            "shirtNumber": "#30",
+            "name": "Marko Stolnik",
+            "club": "UTA Arad",
+            "position": "DEFENDER",
+            "id": "226095",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Alexandru Benga",
+            "club": "UTA Arad",
+            "position": "DEFENDER",
+            "id": "202800",
+            "age": "34"
+        },
+        {
+            "nationality": "Bulgaria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/293611-1670869599.jpg?lm=1",
+            "shirtNumber": "#5",
+            "name": "Ivaylo Markov",
+            "club": "UTA Arad",
+            "position": "DEFENDER",
+            "id": "293611",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Darius Iurasciuc",
+            "club": "UTA Arad",
+            "position": "DEFENDER",
+            "id": "870033",
+            "age": "17"
+        },
+        {
+            "nationality": "Mauritania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/393436-1693835380.png?lm=1",
+            "shirtNumber": "#18",
+            "name": "Aly Abeid",
+            "club": "UTA Arad",
+            "position": "DEFENDER",
+            "id": "393436",
+            "age": "25"
+        },
+        {
+            "nationality": "Nigeria",
+            "img_url": "no_image",
+            "name": "Agha Obinna",
+            "club": "UTA Arad",
+            "position": "DEFENDER",
+            "id": "1161371",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/340978-1688653648.png?lm=1",
+            "shirtNumber": "#98",
+            "name": "Tiberiu Capusa",
+            "club": "UTA Arad",
+            "position": "DEFENDER",
+            "id": "340978",
+            "age": "25"
+        },
+        {
+            "nationality": "Portugal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/598377-1693987444.jpg?lm=1",
+            "shirtNumber": "#2",
+            "name": "Diogo Rodrigues",
+            "club": "UTA Arad",
+            "position": "DEFENDER",
+            "id": "598377",
+            "age": "24"
+        },
+        {
+            "nationality": "Montenegro",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/329312-1693835610.png?lm=1",
+            "shirtNumber": "#44",
+            "name": "Marko Roganovic",
+            "club": "UTA Arad",
+            "position": "DEFENDER",
+            "id": "329312",
+            "age": "27"
+        },
+        {
+            "nationality": "Moldova",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/213016-1693835126.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Cătălin Carp",
+            "club": "UTA Arad",
+            "position": "MIDFIELDER",
+            "id": "213016",
+            "age": "30"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/340113-1693835357.png?lm=1",
+            "shirtNumber": "#14",
+            "name": "Marcelo Freitas",
+            "club": "UTA Arad",
+            "position": "MIDFIELDER",
+            "id": "340113",
+            "age": "29"
+        },
+        {
+            "nationality": "Albania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/339598-1693835327.png?lm=1",
+            "shirtNumber": "#27",
+            "name": "Herald Marku",
+            "club": "UTA Arad",
+            "position": "MIDFIELDER",
+            "id": "339598",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/837240-1693835094.png?lm=1",
+            "shirtNumber": "#55",
+            "name": "Rares Pop",
+            "club": "UTA Arad",
+            "position": "MIDFIELDER",
+            "id": "837240",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/274671-1693835059.png?lm=1",
+            "shirtNumber": "#80",
+            "name": "Denis Dumitrascu",
+            "club": "UTA Arad",
+            "position": "MIDFIELDER",
+            "id": "274671",
+            "age": "28"
+        },
+        {
+            "nationality": "Slovakia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/406791-1693835154.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Andrej Fabry",
+            "club": "UTA Arad",
+            "position": "MIDFIELDER",
+            "id": "406791",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/974722-1693835642.png?lm=1",
+            "shirtNumber": "#21",
+            "name": "Cristian Mihai",
+            "club": "UTA Arad",
+            "position": "MIDFIELDER",
+            "id": "974722",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Andrei David",
+            "club": "UTA Arad",
+            "position": "MIDFIELDER",
+            "id": "608490",
+            "age": "20"
+        },
+        {
+            "nationality": "Kenya",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/401176-1561371819.png?lm=1",
+            "shirtNumber": "#24",
+            "name": "Eric Omondi",
+            "club": "UTA Arad",
+            "position": "FORWARD",
+            "id": "401176",
+            "age": "29"
+        },
+        {
+            "nationality": "Germany",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/83253-1613765350.jpg?lm=1",
+            "shirtNumber": "#11",
+            "name": "Reagy Ofosu",
+            "club": "UTA Arad",
+            "position": "FORWARD",
+            "id": "83253",
+            "age": "32"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/478022-1692036475.jpg?lm=1",
+            "shirtNumber": "#7",
+            "name": "Albert Stahl",
+            "club": "UTA Arad",
+            "position": "FORWARD",
+            "id": "478022",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/319231-1692035437.png?lm=1",
+            "shirtNumber": "#19",
+            "name": "Claudiu Micovschi",
+            "club": "UTA Arad",
+            "position": "FORWARD",
+            "id": "319231",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Ahmet Ekmekci",
+            "club": "UTA Arad",
+            "position": "FORWARD",
+            "id": "1153963",
+            "age": "19"
+        },
+        {
+            "nationality": "Netherlands",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/187290-1690381510.jpeg?lm=1",
+            "shirtNumber": "#42",
+            "name": "Kevin Luckassen",
+            "club": "UTA Arad",
+            "position": "FORWARD",
+            "id": "187290",
+            "age": "30"
+        },
+        {
+            "nationality": "Italy",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/444984-1693835409.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Godberg Cooper",
+            "club": "UTA Arad",
+            "position": "FORWARD",
+            "id": "444984",
+            "age": "26"
+        },
+        {
+            "nationality": "Austria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/384224-1645970662.jpg?lm=1",
+            "shirtNumber": "#17",
+            "name": "Aleksandar Vucenovic",
+            "club": "UTA Arad",
+            "position": "FORWARD",
+            "id": "384224",
+            "age": "26"
+        },
+        {
+            "nationality": "Netherlands",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/243276-1520264271.jpg?lm=1",
+            "shirtNumber": "#39",
+            "name": "Kyvon Leidsman",
+            "club": "UTA Arad",
+            "position": "FORWARD",
+            "id": "243276",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1166399-1693996207.jpg?lm=1",
+            "shirtNumber": "#16",
+            "name": "Raul Stanciu",
+            "club": "UTA Arad",
+            "position": "FORWARD",
+            "id": "1166399",
+            "age": "16"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1166399-1693996207.jpg?lm=1",
+            "shirtNumber": "#16",
+            "name": "Raul Stanciu",
+            "club": "UTA Arad",
+            "position": "FORWARD",
+            "id": "1166399",
+            "age": "16"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/547853-1691735481.png?lm=1",
+            "shirtNumber": "#68",
+            "name": "Razvan Ducan",
+            "club": "FC Botosani",
+            "position": "GK",
+            "id": "547853",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/394535-1691735850.png?lm=1",
+            "shirtNumber": "#82",
+            "name": "Andrei Ureche",
+            "club": "FC Botosani",
+            "position": "GK",
+            "id": "394535",
+            "age": "25"
+        },
+        {
+            "nationality": "Nigeria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/314969-1691147140.png?lm=1",
+            "shirtNumber": "#40",
+            "name": "Júnior Pius",
+            "club": "FC Botosani",
+            "position": "DEFENDER",
+            "id": "314969",
+            "age": "27"
+        },
+        {
+            "nationality": "France",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/341394-1691393324.png?lm=1",
+            "shirtNumber": "#3",
+            "name": "Gabriel Mutombo",
+            "club": "FC Botosani",
+            "position": "DEFENDER",
+            "id": "341394",
+            "age": "27"
+        },
+        {
+            "nationality": "Bosnia-Herzegovina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/371078-1675934173.png?lm=1",
+            "shirtNumber": "#44",
+            "name": "Rijad Sadiku",
+            "club": "FC Botosani",
+            "position": "DEFENDER",
+            "id": "371078",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/243846-1691393438.png?lm=1",
+            "shirtNumber": "#32",
+            "name": "Alin Seroni",
+            "club": "FC Botosani",
+            "position": "DEFENDER",
+            "id": "243846",
+            "age": "36"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Adrian Moescu",
+            "club": "FC Botosani",
+            "position": "DEFENDER",
+            "id": "706943",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/685449-1629991978.jpg?lm=1",
+            "shirtNumber": "#5",
+            "name": "Gabriel Niculescu",
+            "club": "FC Botosani",
+            "position": "DEFENDER",
+            "id": "685449",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/177661-1691735392.png?lm=1",
+            "shirtNumber": "#30",
+            "name": "Alexandru Tiganasu",
+            "club": "FC Botosani",
+            "position": "DEFENDER",
+            "id": "177661",
+            "age": "33"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1027042-1691076033.png?lm=1",
+            "shirtNumber": "#26",
+            "name": "Razvan Cret",
+            "club": "FC Botosani",
+            "position": "DEFENDER",
+            "id": "1027042",
+            "age": "17"
+        },
+        {
+            "nationality": "Malawi",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/703710-1691735606.png?lm=1",
+            "shirtNumber": "#28",
+            "name": "Charles Petro",
+            "club": "FC Botosani",
+            "position": "DEFENDER",
+            "id": "703710",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/164231-1662121588.png?lm=1",
+            "shirtNumber": "#20",
+            "name": "Romario Benzar",
+            "club": "FC Botosani",
+            "position": "DEFENDER",
+            "id": "164231",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/568540-1691147039.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Victor Dican",
+            "club": "FC Botosani",
+            "position": "MIDFIELDER",
+            "id": "568540",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/340981-1631269350.png?lm=1",
+            "shirtNumber": "#98",
+            "name": "Carlo Casap",
+            "club": "FC Botosani",
+            "position": "MIDFIELDER",
+            "id": "340981",
+            "age": "24"
+        },
+        {
+            "nationality": "Liberia",
+            "img_url": "no_image",
+            "name": "David Tweh",
+            "club": "FC Botosani",
+            "position": "MIDFIELDER",
+            "id": "496844",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/976856-1693992318.png?lm=1",
+            "shirtNumber": "#33",
+            "name": "Gabriel David",
+            "club": "FC Botosani",
+            "position": "MIDFIELDER",
+            "id": "976856",
+            "age": "20"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/288502-1678888867.jpg?lm=1",
+            "shirtNumber": "#4",
+            "name": "Gustavo Hebling",
+            "club": "FC Botosani",
+            "position": "MIDFIELDER",
+            "id": "288502",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Bogdan Filip",
+            "club": "FC Botosani",
+            "position": "MIDFIELDER",
+            "id": "832833",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Robert Caruta",
+            "club": "FC Botosani",
+            "position": "MIDFIELDER",
+            "id": "339957",
+            "age": "27"
+        },
+        {
+            "nationality": "Nigeria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1028313-1691328897.jpg?lm=1",
+            "shirtNumber": "#12",
+            "name": "Adams Friday",
+            "club": "FC Botosani",
+            "position": "MIDFIELDER",
+            "id": "1028313",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Eduard Florescu",
+            "club": "FC Botosani",
+            "position": "MIDFIELDER",
+            "id": "379194",
+            "age": "26"
+        },
+        {
+            "nationality": "France",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/644080-1691735639.png?lm=1",
+            "shirtNumber": "#99",
+            "name": "Cyril Zabou",
+            "club": "FC Botosani",
+            "position": "MIDFIELDER",
+            "id": "644080",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/749036-1675934365.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "George Dragomir",
+            "club": "FC Botosani",
+            "position": "MIDFIELDER",
+            "id": "749036",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/364697-1675934610.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Sebastian Mailat",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "364697",
+            "age": "25"
+        },
+        {
+            "nationality": "France",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/389441-1691735822.png?lm=1",
+            "shirtNumber": "#93",
+            "name": "Virgile Pinson",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "389441",
+            "age": "27"
+        },
+        {
+            "nationality": "Cameroon",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/238291-1691393377.png?lm=1",
+            "shirtNumber": "#45",
+            "name": "Fabrice Olinga",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "238291",
+            "age": "27"
+        },
+        {
+            "nationality": "Cote d'Ivoire",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/390667-1693992410.png?lm=1",
+            "shirtNumber": "#11",
+            "name": "Jean-Armel Drolé",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "390667",
+            "age": "26"
+        },
+        {
+            "nationality": "Aruba",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/349598-1695794779.png?lm=1",
+            "shirtNumber": "#90",
+            "name": "Jayson Halman",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "349598",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/536129-1691147201.png?lm=1",
+            "shirtNumber": "#23",
+            "name": "Andrei Dragu",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "536129",
+            "age": "24"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/605541-1675934281.png?lm=1",
+            "shirtNumber": "#24",
+            "name": "Marius Cioiu",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "605541",
+            "age": "24"
+        },
+        {
+            "nationality": "France",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/650105-1693992620.png?lm=1",
+            "shirtNumber": "#66",
+            "name": "Jaly Mouaddib",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "650105",
+            "age": "22"
+        },
+        {
+            "nationality": "France",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/469049-1693992685.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Kablan Davy N'Goma",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "469049",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1101450-1675934444.png?lm=1",
+            "shirtNumber": "#80",
+            "name": "Codrin Cărăușu",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "1101450",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1159757-1691393264.jpg?lm=1",
+            "shirtNumber": "#70",
+            "name": "George Gligor",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "1159757",
+            "age": "18"
+        },
+        {
+            "nationality": "Guinea",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/486537-1693992564.png?lm=1",
+            "shirtNumber": "#17",
+            "name": "Sekou Camara",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "486537",
+            "age": "26"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/427370-1694508971.jpg?lm=1",
+            "shirtNumber": "#60",
+            "name": "Miroslav Ilicic",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "427370",
+            "age": "25"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/427370-1694508971.jpg?lm=1",
+            "shirtNumber": "#60",
+            "name": "Miroslav Ilicic",
+            "club": "FC Botosani",
+            "position": "FORWARD",
+            "id": "427370",
+            "age": "25"
+        },
+        {
+            "nationality": "Slovenia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/183848-1694067402.png?lm=1",
+            "shirtNumber": "#1",
+            "name": "Adnan Golubovic",
+            "club": "FC Dinamo Bucharest",
+            "position": "GK",
+            "id": "183848",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/333376-1691075847.jpg?lm=1",
+            "shirtNumber": "#73",
+            "name": "Razvan Began",
+            "club": "FC Dinamo Bucharest",
+            "position": "GK",
+            "id": "333376",
+            "age": "27"
+        },
+        {
+            "nationality": "Bosnia-Herzegovina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/425691-1664902233.png?lm=1",
+            "shirtNumber": "#91",
+            "name": "Filip Dujmovic",
+            "club": "FC Dinamo Bucharest",
+            "position": "GK",
+            "id": "425691",
+            "age": "24"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/190314-1691148126.jpg?lm=1",
+            "shirtNumber": "#5",
+            "name": "Lucas",
+            "club": "FC Dinamo Bucharest",
+            "position": "DEFENDER",
+            "id": "190314",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/491770-1664902560.png?lm=1",
+            "shirtNumber": "#24",
+            "name": "Deniz Giafer",
+            "club": "FC Dinamo Bucharest",
+            "position": "DEFENDER",
+            "id": "491770",
+            "age": "22"
+        },
+        {
+            "nationality": "France",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/468606-1664902952.png?lm=1",
+            "shirtNumber": "#4",
+            "name": "Quentin Bena",
+            "club": "FC Dinamo Bucharest",
+            "position": "DEFENDER",
+            "id": "468606",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/436078-1694067470.png?lm=1",
+            "shirtNumber": "#27",
+            "name": "Ricardo Grigore",
+            "club": "FC Dinamo Bucharest",
+            "position": "DEFENDER",
+            "id": "436078",
+            "age": "24"
+        },
+        {
+            "nationality": "Togo",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/655143-1693995472.png?lm=1",
+            "shirtNumber": "#28",
+            "name": "Josué Homawoo",
+            "club": "FC Dinamo Bucharest",
+            "position": "DEFENDER",
+            "id": "655143",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/64218-1664902508.png?lm=1",
+            "shirtNumber": "#23",
+            "name": "Razvan Patriche",
+            "club": "FC Dinamo Bucharest",
+            "position": "DEFENDER",
+            "id": "64218",
+            "age": "37"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/672896-1664901918.png?lm=1",
+            "shirtNumber": "#31",
+            "name": "Costin Amzăr",
+            "club": "FC Dinamo Bucharest",
+            "position": "DEFENDER",
+            "id": "672896",
+            "age": "20"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/210088-1664902849.png?lm=1",
+            "shirtNumber": "#2",
+            "name": "Gabriel Moura",
+            "club": "FC Dinamo Bucharest",
+            "position": "DEFENDER",
+            "id": "210088",
+            "age": "35"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1113720-1693995558.png?lm=1",
+            "shirtNumber": "#15",
+            "name": "David Irimia",
+            "club": "FC Dinamo Bucharest",
+            "position": "DEFENDER",
+            "id": "1113720",
+            "age": "17"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/297198-1639151612.png?lm=1",
+            "shirtNumber": "#16",
+            "name": "Christian Ilic",
+            "club": "FC Dinamo Bucharest",
+            "position": "MIDFIELDER",
+            "id": "297198",
+            "age": "27"
+        },
+        {
+            "nationality": "Spain",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/380299-1664903010.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Gorka Larrucea",
+            "club": "FC Dinamo Bucharest",
+            "position": "MIDFIELDER",
+            "id": "380299",
+            "age": "30"
+        },
+        {
+            "nationality": "Spain",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/199348-1664903196.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Dani Iglesias",
+            "club": "FC Dinamo Bucharest",
+            "position": "MIDFIELDER",
+            "id": "199348",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/241310-1664903059.png?lm=1",
+            "shirtNumber": "#30",
+            "name": "Nelut Rosu",
+            "club": "FC Dinamo Bucharest",
+            "position": "MIDFIELDER",
+            "id": "241310",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/186742-1664903314.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Iulian Rosu",
+            "club": "FC Dinamo Bucharest",
+            "position": "MIDFIELDER",
+            "id": "186742",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1113721-1691147632.jpg?lm=1",
+            "shirtNumber": "#29",
+            "name": "Alexandru Irimia",
+            "club": "FC Dinamo Bucharest",
+            "position": "MIDFIELDER",
+            "id": "1113721",
+            "age": "17"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/491956-1664903269.png?lm=1",
+            "shirtNumber": "#22",
+            "name": "Andrei Bani",
+            "club": "FC Dinamo Bucharest",
+            "position": "MIDFIELDER",
+            "id": "491956",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Ioan Borcea",
+            "club": "FC Dinamo Bucharest",
+            "position": "MIDFIELDER",
+            "id": "608464",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/470152-1691329735.jpg?lm=1",
+            "shirtNumber": "#17",
+            "name": "Dennis Politic",
+            "club": "FC Dinamo Bucharest",
+            "position": "FORWARD",
+            "id": "470152",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/863556-1664903557.png?lm=1",
+            "shirtNumber": "#20",
+            "name": "Antonio Bordusanu",
+            "club": "FC Dinamo Bucharest",
+            "position": "FORWARD",
+            "id": "863556",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/397485-1691132241.jpg?lm=1",
+            "shirtNumber": "#98",
+            "name": "Cristian Costin",
+            "club": "FC Dinamo Bucharest",
+            "position": "FORWARD",
+            "id": "397485",
+            "age": "25"
+        },
+        {
+            "nationality": "France",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/413033-1664903484.png?lm=1",
+            "shirtNumber": "#99",
+            "name": "Lamine Ghezali",
+            "club": "FC Dinamo Bucharest",
+            "position": "FORWARD",
+            "id": "413033",
+            "age": "24"
+        },
+        {
+            "nationality": "Portugal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/404156-1693995510.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Gonçalo Gregório",
+            "club": "FC Dinamo Bucharest",
+            "position": "FORWARD",
+            "id": "404156",
+            "age": "28"
+        },
+        {
+            "nationality": "Madagascar",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/354338-1681285338.jpg?lm=1",
+            "shirtNumber": "#19",
+            "name": "Hakim Abdallah",
+            "club": "FC Dinamo Bucharest",
+            "position": "FORWARD",
+            "id": "354338",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/168257-1664903963.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Catalin Tira",
+            "club": "FC Dinamo Bucharest",
+            "position": "FORWARD",
+            "id": "168257",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/168257-1664903963.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Catalin Tira",
+            "club": "FC Dinamo Bucharest",
+            "position": "FORWARD",
+            "id": "168257",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/73731-1695110242.png?lm=1",
+            "shirtNumber": "#1",
+            "name": "Silviu Lung Jr.",
+            "club": "ACSM Politehnica Iasi",
+            "position": "GK",
+            "id": "73731",
+            "age": "34"
+        },
+        {
+            "nationality": "North Macedonia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/344958-1695109980.png?lm=1",
+            "shirtNumber": "#29",
+            "name": "Risto Jankov",
+            "club": "ACSM Politehnica Iasi",
+            "position": "GK",
+            "id": "344958",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/777443-1695109926.jpg?lm=1",
+            "shirtNumber": "#12",
+            "name": "Ionut Ailenei",
+            "club": "ACSM Politehnica Iasi",
+            "position": "GK",
+            "id": "777443",
+            "age": "22"
+        },
+        {
+            "nationality": "Guatemala",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/354671-1695120475.png?lm=1",
+            "shirtNumber": "#3",
+            "name": "Nicolás Samayoa",
+            "club": "ACSM Politehnica Iasi",
+            "position": "DEFENDER",
+            "id": "354671",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/192866-1695120106.png?lm=1",
+            "shirtNumber": "#6",
+            "name": "Florin Ilie",
+            "club": "ACSM Politehnica Iasi",
+            "position": "DEFENDER",
+            "id": "192866",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/48685-1695120539.png?lm=1",
+            "shirtNumber": "#4",
+            "name": "Razvan Tincu",
+            "club": "ACSM Politehnica Iasi",
+            "position": "DEFENDER",
+            "id": "48685",
+            "age": "36"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/83659-1695120843.png?lm=1",
+            "shirtNumber": "#32",
+            "name": "Matija Katanec",
+            "club": "ACSM Politehnica Iasi",
+            "position": "DEFENDER",
+            "id": "83659",
+            "age": "33"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/634317-1695121813.jpg?lm=1",
+            "shirtNumber": "#27",
+            "name": "Rares Ispas",
+            "club": "ACSM Politehnica Iasi",
+            "position": "DEFENDER",
+            "id": "634317",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Sorin Serban",
+            "club": "ACSM Politehnica Iasi",
+            "position": "DEFENDER",
+            "id": "567518",
+            "age": "23"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/608463-1695120782.png?lm=1",
+            "shirtNumber": "#18",
+            "name": "Stefan Stefanovici",
+            "club": "ACSM Politehnica Iasi",
+            "position": "DEFENDER",
+            "id": "608463",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/208716-1695110619.png?lm=1",
+            "shirtNumber": "#5",
+            "name": "Claudiu Belu",
+            "club": "ACSM Politehnica Iasi",
+            "position": "DEFENDER",
+            "id": "208716",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/241296-1695120289.png?lm=1",
+            "shirtNumber": "#2",
+            "name": "Marius Martac",
+            "club": "ACSM Politehnica Iasi",
+            "position": "DEFENDER",
+            "id": "241296",
+            "age": "32"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/177660-1695120656.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Gabriel Vasvari",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "177660",
+            "age": "37"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/210059-1695110475.png?lm=1",
+            "shirtNumber": "#37",
+            "name": "Mihai Bordeianu",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "210059",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/340980-1695110527.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "Andrei Ciobanu",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "340980",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/464306-1695120161.png?lm=1",
+            "shirtNumber": "#19",
+            "name": "Catalin Itu",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "464306",
+            "age": "24"
+        },
+        {
+            "nationality": "Argentina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/323920-1695120324.png?lm=1",
+            "shirtNumber": "#24",
+            "name": "Julián Marchioni",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "323920",
+            "age": "30"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/374089-1693995815.png?lm=1",
+            "shirtNumber": "#95",
+            "name": "Carlos Jatobá",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "374089",
+            "age": "28"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1143039-1695121050.png?lm=1",
+            "shirtNumber": "#28",
+            "name": "Diego Farcas",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "1143039",
+            "age": "17"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Alexandru Hrib",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "1011651",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Razvan Buterchi",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "1019330",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/880840-1695121088.png?lm=1",
+            "shirtNumber": "#80",
+            "name": "Andrei Gheorghita",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "880840",
+            "age": "21"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/186741-1695120018.png?lm=1",
+            "shirtNumber": "#10",
+            "name": "Alin Roman",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "186741",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/608511-1695120512.png?lm=1",
+            "shirtNumber": "#23",
+            "name": "Robert Ion",
+            "club": "ACSM Politehnica Iasi",
+            "position": "MIDFIELDER",
+            "id": "608511",
+            "age": "23"
+        },
+        {
+            "nationality": "Brazil",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/673830-1693995853.png?lm=1",
+            "shirtNumber": "#21",
+            "name": "Luis Phelipe",
+            "club": "ACSM Politehnica Iasi",
+            "position": "FORWARD",
+            "id": "673830",
+            "age": "22"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/938591-1695120812.png?lm=1",
+            "shirtNumber": "#11",
+            "name": "Antonio Dumitru",
+            "club": "ACSM Politehnica Iasi",
+            "position": "FORWARD",
+            "id": "938591",
+            "age": "19"
+        },
+        {
+            "nationality": "England",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/345739-1695119982.png?lm=1",
+            "shirtNumber": "#17",
+            "name": "Shayon Harrison",
+            "club": "ACSM Politehnica Iasi",
+            "position": "FORWARD",
+            "id": "345739",
+            "age": "26"
+        },
+        {
+            "nationality": "Slovakia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/104990-1695120208.png?lm=1",
+            "shirtNumber": "#77",
+            "name": "Jakub Vojtus",
+            "club": "ACSM Politehnica Iasi",
+            "position": "FORWARD",
+            "id": "104990",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/123671-1661770234.jpg?lm=1",
+            "shirtNumber": "#9",
+            "name": "Sergiu Bus",
+            "club": "ACSM Politehnica Iasi",
+            "position": "FORWARD",
+            "id": "123671",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Darius Deac",
+            "club": "ACSM Politehnica Iasi",
+            "position": "FORWARD",
+            "id": "935889",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Cristian Grigoriu",
+            "club": "ACSM Politehnica Iasi",
+            "position": "FORWARD",
+            "id": "1031088",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Cristian Grigoriu",
+            "club": "ACSM Politehnica Iasi",
+            "position": "FORWARD",
+            "id": "1031088",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/340976-1693058113.png?lm=1",
+            "shirtNumber": "#13",
+            "name": "Cosmin Dur-Bozoanca",
+            "club": "SC Otelul Galati",
+            "position": "GK",
+            "id": "340976",
+            "age": "25"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/315468-1692867038.png?lm=1",
+            "shirtNumber": "#12",
+            "name": "Relu Stoian",
+            "club": "SC Otelul Galati",
+            "position": "GK",
+            "id": "315468",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/940628-1693058080.png?lm=1",
+            "shirtNumber": "#1",
+            "name": "Gabriel Ursu",
+            "club": "SC Otelul Galati",
+            "position": "GK",
+            "id": "940628",
+            "age": "21"
+        },
+        {
+            "nationality": "Cote d'Ivoire",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/566068-1692866944.jpg?lm=1",
+            "shirtNumber": "#6",
+            "name": "Jonathan Cissé",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "566068",
+            "age": "26"
+        },
+        {
+            "nationality": "Uruguay",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/597554-1692868635.png?lm=1",
+            "shirtNumber": "#5",
+            "name": "Ariel López",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "597554",
+            "age": "28"
+        },
+        {
+            "nationality": "Burkina Faso",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/125917-1692885222.png?lm=1",
+            "shirtNumber": "#15",
+            "name": "Francois Yabré",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "125917",
+            "age": "32"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/308778-1639151439.png?lm=1",
+            "shirtNumber": "#25",
+            "name": "Dragan Lovric",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "308778",
+            "age": "27"
+        },
+        {
+            "nationality": "Portugal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/448255-1693058239.png?lm=1",
+            "shirtNumber": "#4",
+            "name": "João Serrão",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "448255",
+            "age": "23"
+        },
+        {
+            "nationality": "Martinique",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/333350-1632824318.jpg?lm=1",
+            "shirtNumber": "#95",
+            "name": "Rosario Latouchent",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "333350",
+            "age": "27"
+        },
+        {
+            "nationality": "Portugal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/345881-1695128620.jpg?lm=1",
+            "shirtNumber": "#28",
+            "name": "Miguel Silva",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "345881",
+            "age": "27"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/295878-1693058271.png?lm=1",
+            "shirtNumber": "#22",
+            "name": "Dan Panait",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "295878",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/731521-1693993049.jpg?lm=1",
+            "shirtNumber": "#18",
+            "name": "Iustin Neacsu",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "731521",
+            "age": "19"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/213646-1693058314.png?lm=1",
+            "shirtNumber": "#16",
+            "name": "Costin Ghiocel",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "213646",
+            "age": "29"
+        },
+        {
+            "nationality": "Bulgaria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/381337-1693058433.png?lm=1",
+            "shirtNumber": "#2",
+            "name": "Milen Zhelev",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "381337",
+            "age": "30"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/919693-1693058466.png?lm=1",
+            "shirtNumber": "#14",
+            "name": "Andrei Rus",
+            "club": "SC Otelul Galati",
+            "position": "DEFENDER",
+            "id": "919693",
+            "age": "21"
+        },
+        {
+            "nationality": "Portugal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/597165-1692867162.png?lm=1",
+            "shirtNumber": "#21",
+            "name": "Samuel Teles",
+            "club": "SC Otelul Galati",
+            "position": "MIDFIELDER",
+            "id": "597165",
+            "age": "26"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/112942-1693061307.png?lm=1",
+            "shirtNumber": "#8",
+            "name": "Ionut Neagu",
+            "club": "SC Otelul Galati",
+            "position": "MIDFIELDER",
+            "id": "112942",
+            "age": "34"
+        },
+        {
+            "nationality": "Moldova",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/208571-1693061360.png?lm=1",
+            "shirtNumber": "#23",
+            "name": "Vasile Jardan",
+            "club": "SC Otelul Galati",
+            "position": "MIDFIELDER",
+            "id": "208571",
+            "age": "30"
+        },
+        {
+            "nationality": "Croatia",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/148545-1693061395.png?lm=1",
+            "shirtNumber": "#31",
+            "name": "Diego Zivulic",
+            "club": "SC Otelul Galati",
+            "position": "MIDFIELDER",
+            "id": "148545",
+            "age": "31"
+        },
+        {
+            "nationality": "Italy",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/163999-1693061427.png?lm=1",
+            "shirtNumber": "#30",
+            "name": "Juri Cisotti",
+            "club": "SC Otelul Galati",
+            "position": "MIDFIELDER",
+            "id": "163999",
+            "age": "30"
+        },
+        {
+            "nationality": "Argentina",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/296809-1692885267.png?lm=1",
+            "shirtNumber": "#27",
+            "name": "Pablo Gaitán",
+            "club": "SC Otelul Galati",
+            "position": "MIDFIELDER",
+            "id": "296809",
+            "age": "31"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "no_image",
+            "name": "Stefan Bodisteanu",
+            "club": "SC Otelul Galati",
+            "position": "MIDFIELDER",
+            "id": "608448",
+            "age": "20"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/280311-1693061495.png?lm=1",
+            "shirtNumber": "#26",
+            "name": "Mihai Adascalitei",
+            "club": "SC Otelul Galati",
+            "position": "MIDFIELDER",
+            "id": "280311",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/798248-1693061570.png?lm=1",
+            "shirtNumber": "#17",
+            "name": "Razvan Tanasa",
+            "club": "SC Otelul Galati",
+            "position": "MIDFIELDER",
+            "id": "798248",
+            "age": "20"
+        },
+        {
+            "nationality": "Portugal",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/234499-1695128406.jpg?lm=1",
+            "shirtNumber": "#67",
+            "name": "Frédéric Maciel",
+            "club": "SC Otelul Galati",
+            "position": "FORWARD",
+            "id": "234499",
+            "age": "29"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/1065319-1693061743.png?lm=1",
+            "shirtNumber": "#24",
+            "name": "Denis Bordun",
+            "club": "SC Otelul Galati",
+            "position": "FORWARD",
+            "id": "1065319",
+            "age": "18"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/434892-1693061772.png?lm=1",
+            "shirtNumber": "#11",
+            "name": "Alexandru Pop",
+            "club": "SC Otelul Galati",
+            "position": "FORWARD",
+            "id": "434892",
+            "age": "23"
+        },
+        {
+            "nationality": "Nigeria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/73951-1693061802.png?lm=1",
+            "shirtNumber": "#90",
+            "name": "Kehinde Fatai",
+            "club": "SC Otelul Galati",
+            "position": "FORWARD",
+            "id": "73951",
+            "age": "33"
+        },
+        {
+            "nationality": "Romania",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/213640-1693061842.png?lm=1",
+            "shirtNumber": "#7",
+            "name": "George Cirjan",
+            "club": "SC Otelul Galati",
+            "position": "FORWARD",
+            "id": "213640",
+            "age": "35"
+        },
+        {
+            "nationality": "Bulgaria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/255991-1693061876.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Iliya Dimitrov",
+            "club": "SC Otelul Galati",
+            "position": "FORWARD",
+            "id": "255991",
+            "age": "27"
+        },
+        {
+            "nationality": "Bulgaria",
+            "img_url": "https:\/\/img.a.transfermarkt.technology\/portrait\/header\/255991-1693061876.png?lm=1",
+            "shirtNumber": "#9",
+            "name": "Iliya Dimitrov",
+            "club": "SC Otelul Galati",
+            "position": "FORWARD",
+            "id": "255991",
+            "age": "27"
+        }
+    ]
+}
