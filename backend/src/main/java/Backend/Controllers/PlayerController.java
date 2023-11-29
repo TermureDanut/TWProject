@@ -1,13 +1,16 @@
 package Backend.Controllers;
 import Backend.Services.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 import Backend.Entities.Player;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/players")
+@Component
 public class PlayerController {
 
     @Autowired
@@ -28,4 +31,10 @@ public class PlayerController {
         return playerService.getPlayersByShirtNumber(shirtNumber);
     }
 
+    @GetMapping("/by-id={id}")
+    public Optional<Player> playerbyID(@PathVariable int id){
+        return playerService.getPlayerById(id);
+
+
+    }
 }

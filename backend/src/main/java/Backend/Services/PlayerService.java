@@ -1,7 +1,10 @@
 package Backend.Services;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 import java.util.List;
+import java.util.Optional;
+
 import Backend.Entities.Player;
 import Backend.Repos.PlayerRepo;
 
@@ -22,4 +25,9 @@ public class PlayerService {
     public List<Player> getPlayersByShirtNumber(String shirtNumber) {
         return playerRepo.findByShirtNumber(shirtNumber);
     }
+
+    public Optional<Player> getPlayerById(int id){
+        return playerRepo.findById(id);
+    }
+
 }
