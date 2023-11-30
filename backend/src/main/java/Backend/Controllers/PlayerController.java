@@ -37,4 +37,9 @@ public class PlayerController {
 
 
     }
+
+    @GetMapping("/random")
+    public Player getRandomPlayer(){
+        return playerService.getRandomPlayer();
+    }
 }
