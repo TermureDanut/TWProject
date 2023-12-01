@@ -1,0 +1,62 @@
+.card {
+  width: 580px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.guesses {
+  width: 580px;
+  height: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.correct_output {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Arial", sans-serif;
+  background-color: green;
+}
+
+.incorrect_output {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Arial", sans-serif;
+  background-color: grey;
+}
+
+.guess_name_correct {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Arial", sans-serif;
+  background-color: green;
+}
+
+.guess_name_incorrect {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Arial", sans-serif;
+  background-color: grey;
+}

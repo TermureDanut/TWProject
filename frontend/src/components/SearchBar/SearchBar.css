@@ -20,9 +20,9 @@
 
 .search_result {
   background: white;
-  width: 400px;
+  width: 504px;
   margin-top: 0px;
-  margin-left: 1px;
+  margin-left: 2px;
   position: absolute;
   top: 70px;
 }
@@ -36,10 +36,18 @@
   padding: 10px 20px;
   cursor: pointer;
   font-size: 18px;
+  font-family: "Arial", sans-serif;
   display: block;
+  background-color: white;
+  border: 0cap;
+  width: 504px;
 }
 
 .search_suggestion_line:hover {
+  background: rgb(227, 227, 227);
+}
+
+.search_suggestion_line.active {
   background: rgb(227, 227, 227);
 }
 

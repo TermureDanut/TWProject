@@ -1,0 +1,31 @@
+.final_result {
+  font-size: 30px;
+  font-family: "Arial", sans-serif;
+}
+
+.result {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.cardStyle {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  padding: 16px;
+  background-color: white;
+  width: 550px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.result_div {
+  padding-top: 10px;
+  height: 16%;
+}
