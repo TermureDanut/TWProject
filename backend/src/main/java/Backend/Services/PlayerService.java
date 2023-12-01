@@ -30,4 +30,9 @@ public class PlayerService {
         return playerRepo.findById(id);
     }
 
+    public Player getRandomPlayer() {
+        List<Player> players = playerRepo.findAll();
+        int random = (int) (Math.random() * players.size());
+        return players.get(random);
+    }
 }
