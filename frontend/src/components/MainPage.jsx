@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import SearchBar from "./SearchBar/SearchBar";
 import Card from "./GuessCard/Card";
 import "./style.css";
@@ -7,21 +7,34 @@ import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
-import DialogTitle from "@mui/material/DialogTitle";
+import "./unknown.png";
 
 function MainPage() {
   const [inputList, setInputList] = useState([]);
 
+  const unknownImage = "./unknown.png";
   const reversedInputList = [...inputList].reverse();
 
-  const [correctPlayer] = useState({
-    name: "Lionel Messi",
-    shirt: 10,
-    position: "FW",
-    age: 34,
-    team: "Inter Miami",
-    nationality: "Argentine",
-  });
+  const [correctPlayer, setCorrectPlayer] = useState({});
+
+  const fetchPlayer = async () => {
+    try {
+      const response = await fetch("http://localhost:8080/players/random");
+
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+
+      const result = await response.json();
+      setCorrectPlayer(result);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchPlayer();
+  }, []);
 
   const [name, setName] = useState("");
   const [shirt, setShirt] = useState();
@@ -29,36 +42,50 @@ function MainPage() {
   const [age, setAge] = useState();
   const [team, setTeam] = useState("");
   const [nationality, setNationality] = useState("");
+  const [image, setImage] = useState("");
 
   const addObject = (newObject) => {
     setInputList([...inputList, newObject]);
   };
 
   const [open, setOpen] = useState(false);
+  const [found, setFound] = useState(false);
   const handleClickOpen = () => {
     setOpen(true);
   };
   const handleClose = () => {
     setOpen(false);
+    setName("");
+    setShirt("");
+    setPosition("");
+    setAge();
+    setTeam("");
+    setNationality("");
+    setImage("");
   };
 
   const [maximumTries, setMaximumTries] = useState(0);
   const handleDataUpdate = (data) => {
     addObject(data);
-    setMaximumTries(inputList.length);
-    if (maximumTries == 7) {
-      setMaximumTries(0);
-      setInputList([]);
-      handleClickOpen();
-    }
+    setMaximumTries(maximumTries + 1);
     if (data.name === correctPlayer.name) {
       setName(correctPlayer.name);
-      setShirt(correctPlayer.shirt);
+      setShirt(correctPlayer.shirtNumber);
       setPosition(correctPlayer.position);
       setAge(correctPlayer.age);
       setTeam(correctPlayer.team);
       setNationality(correctPlayer.nationality);
+      setImage(correctPlayer.imageUrl);
+      setFound(true);
       handleClickOpen();
+    } else {
+      if (maximumTries == 7) {
+        handleClickOpen();
+        setFound(false);
+        setMaximumTries(0);
+        setInputList([]);
+        fetchPlayer();
+      }
     }
   };
 
@@ -84,14 +111,23 @@ function MainPage() {
             }}
           >
             <img
-              src={require("./unknown.png")}
-              alt="Unknown"
+              src={found === false ? unknownImage : image}
               style={{ width: "60%", height: "80%" }}
             />
           </div>
         </div>
         <SearchBar onDataUpdate={handleDataUpdate} />
       </div>
+      {maximumTries === 0 ? (
+        <div className="try_number">
+          <p> </p>
+        </div>
+      ) : (
+        <div className="try_number">
+          <p>{maximumTries} / 8</p>
+        </div>
+      )}
+
       <div>
         {reversedInputList.map((player, index) => (
           <Card
@@ -101,46 +137,27 @@ function MainPage() {
           />
         ))}
       </div>
-      {maximumTries === 7 ? (
-        <Dialog
-          open={open}
-          onClose={handleClose}
-          aria-labelledby="alert-dialog-title"
-          aria-describedby="alert-dialog-description"
-        >
-          <DialogContent>
-            <DialogContentText id="alert-dialog-description">
-              Player not found. Better luck next time.
-            </DialogContentText>
-          </DialogContent>
-          <DialogActions>
-            <Button onClick={handleClose}>Play Again</Button>
-          </DialogActions>
-        </Dialog>
-      ) : (
-        <Dialog
-          open={open}
-          onClose={handleClose}
-          aria-labelledby="alert-dialog-title"
-          aria-describedby="alert-dialog-description"
-        >
-          <DialogTitle id="alert-dialog-title">
-            {"Use Google's location service?"}
-          </DialogTitle>
-          <DialogContent>
-            <DialogContentText id="alert-dialog-description">
-              Let Google help apps determine location. This means sending
-              anonymous location data to Google, even when no apps are running.
-            </DialogContentText>
-          </DialogContent>
-          <DialogActions>
-            <Button onClick={handleClose}>Disagree</Button>
-            <Button onClick={handleClose} autoFocus>
-              Agree
-            </Button>
-          </DialogActions>
-        </Dialog>
-      )}
+      <Dialog open={open} onClose={handleClose}>
+        <DialogContent>
+          <DialogContentText>
+            {found === true ? (
+              <div className="dialog_text">
+                <p>{correctPlayer.name} is the correct player!</p>
+              </div>
+            ) : (
+              <div className="dialog_text">
+                <p>
+                  {correctPlayer.name} was the correct player. Better luck next
+                  time!
+                </p>
+              </div>
+            )}
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleClose}>Play Again</Button>
+        </DialogActions>
+      </Dialog>
     </>
   );
 }

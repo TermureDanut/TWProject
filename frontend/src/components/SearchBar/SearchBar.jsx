@@ -12,32 +12,26 @@ const SearchBar = ({ onDataUpdate }) => {
     setSearch(e.target.value);
   };
 
-  const [playersList] = useState([
-    {
-      name: "Lionel Messi",
-      shirt: 10,
-      position: "FW",
-      age: 34,
-      team: "Inter Miami",
-      nationality: "Argentine",
-    },
-    {
-      name: "Cristiano Ronaldo",
-      shirt: 7,
-      position: "FW",
-      age: 37,
-      team: "Al Nassr",
-      nationality: "Portugal",
-    },
-    {
-      name: "Erling Haaland",
-      shirt: 10,
-      position: "FW",
-      age: 23,
-      team: "Man city",
-      nationality: "Norway",
-    },
-  ]);
+  const [playersList, setPlayersList] = useState([]);
+
+  useEffect(() => {
+    const fetchPlayers = async () => {
+      try {
+        const response = await fetch("http://localhost:8080/players/all");
+
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+
+        const result = await response.json();
+        setPlayersList(result);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchPlayers();
+  }, []);
 
   const handleClose = () => {
     setSearch("");

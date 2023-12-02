@@ -29,3 +29,15 @@
   padding-top: 10px;
   height: 16%;
 }
+
+.try_number {
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.dialog_text {
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+}

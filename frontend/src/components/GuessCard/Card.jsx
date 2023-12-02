@@ -16,13 +16,13 @@ const Card = ({ correctPlayer, guessedPlayer }) => {
         )}
       </div>
       <div className="guesses">
-        {correctPlayer.shirt === guessedPlayer.shirt ? (
+        {correctPlayer.shirtNumber === guessedPlayer.shirtNumber ? (
           <div className="correct_output">
-            <p>{correctPlayer.shirt}</p>
+            <p>{correctPlayer.shirtNumber}</p>
           </div>
         ) : (
           <div className="incorrect_output">
-            <p>{guessedPlayer.shirt}</p>
+            <p>{guessedPlayer.shirtNumber}</p>
           </div>
         )}
 
