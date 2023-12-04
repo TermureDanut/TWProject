@@ -109,14 +109,13 @@ function MainPage() {
         setFound(false);
         setMaximumTries(0);
         setInputList([]);
-        fetchPlayer();
       }
     }
   };
 
   return (
     <>
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div style={{ display: "flex", flexDirection: "column" }}>
         <div className="cardStyle">
           <div className="result">
             <div className="result_div">{name}</div>
