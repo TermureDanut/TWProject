@@ -2,71 +2,59 @@ import React from "react";
 import "./Card.css";
 
 const Card = ({ correctPlayer, guessedPlayer }) => {
-  return (
-    <div className="card">
-      <div>
-        {correctPlayer.name === guessedPlayer.name ? (
-          <div className="guess_name_correct">
-            <p>{correctPlayer.name}</p>
-          </div>
-        ) : (
-          <div className="guess_name_incorrect">
-            <p>{guessedPlayer.name}</p>
-          </div>
-        )}
-      </div>
-      <div className="guesses">
-        {correctPlayer.shirtNumber === guessedPlayer.shirtNumber ? (
-          <div className="correct_output">
-            <p>{correctPlayer.shirtNumber}</p>
-          </div>
-        ) : (
-          <div className="incorrect_output">
-            <p>{guessedPlayer.shirtNumber}</p>
-          </div>
-        )}
+    document.body.style = "background: #f7f7f7;";
 
-        {correctPlayer.position === guessedPlayer.position ? (
-          <div className="correct_output">
-            <p>{correctPlayer.position}</p>
-          </div>
-        ) : (
-          <div className="incorrect_output">
-            <p>{guessedPlayer.position}</p>
-          </div>
-        )}
+    const compareValue = (correct, guess) => {
+        if (correct === guess) {
+            return 'correct';
+        }
+        return correct > guess ? 'lower' : 'higher';
+    };
 
-        {correctPlayer.age === guessedPlayer.age ? (
-          <div className="correct_output">
-            <p>{correctPlayer.age}</p>
-          </div>
-        ) : (
-          <div className="incorrect_output">
-            <p>{guessedPlayer.age}</p>
-          </div>
-        )}
+    return (
+        <div className="card">
+            <div className="guess_name">
+                <p className={correctPlayer.name === guessedPlayer.name ? "correct" : "incorrect"}>
+                    {guessedPlayer.name}
+                </p>
+            </div>
+            <div className="guesses">
+                <div className={`guess_info ${compareValue(correctPlayer.shirtNumber, guessedPlayer.shirtNumber)}`}>
+                    <p>Shirt: {guessedPlayer.shirtNumber}
 
-        {correctPlayer.team === guessedPlayer.team ? (
-          <div className="correct_output">
-            <p>{correctPlayer.team}</p>
-          </div>
-        ) : (
-          <div className="incorrect_output">
-            <p>{guessedPlayer.team}</p>
-          </div>
-        )}
-        {correctPlayer.nationality === guessedPlayer.nationality ? (
-          <div className="correct_output">
-            <p>{correctPlayer.nationality}</p>
-          </div>
-        ) : (
-          <div className="incorrect_output">
-            <p>{guessedPlayer.nationality}</p>
-          </div>
-        )}
-      </div>
-    </div>
-  );
+                        {compareValue(correctPlayer.shirtNumber, guessedPlayer.shirtNumber) !== 'correct' && (
+                            <span>  {compareValue(correctPlayer.shirtNumber, guessedPlayer.shirtNumber)}</span>
+                        )}
+
+                    </p>
+                </div>
+                <div className={`guess_info ${compareValue(correctPlayer.age, guessedPlayer.age)}`}>
+                    <p>Age: {guessedPlayer.age}
+
+                        {compareValue(correctPlayer.age, guessedPlayer.age) !== 'correct' && (
+                            <span>  {compareValue(correctPlayer.age, guessedPlayer.age)}</span>
+                        )}
+
+                    </p>
+                </div>
+                <div className="guess_info">
+                    <p className={correctPlayer.position === guessedPlayer.position ? "correct" : "incorrect"}>
+                        Position: {guessedPlayer.position}
+                    </p>
+                </div>
+                <div className="guess_info">
+                    <p className={correctPlayer.team === guessedPlayer.team ? "correct" : "incorrect"}>
+                        Team: {guessedPlayer.team}
+                    </p>
+                </div>
+                <div className="guess_info">
+                    <p className={correctPlayer.nationality === guessedPlayer.nationality ? "correct" : "incorrect"}>
+                        Nationality: {guessedPlayer.nationality}
+                    </p>
+                </div>
+            </div>
+        </div>
+    );
 };
 
 export default Card;

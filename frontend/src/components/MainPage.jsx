@@ -64,6 +64,31 @@ function MainPage() {
     setImage("");
   };
 
+  const seeResults = () => {
+    setOpen(false);
+  }
+
+  const playAgain = () => {
+    // Reset the state variables
+    setName("");
+    setShirt("");
+    setPosition("");
+    setAge();
+    setTeam("");
+    setNationality("");
+    setImage("");
+    setFound(false);
+    setMaximumTries(0);
+    setInputList([]);
+
+    // Fetch a new player
+    fetchPlayer();
+
+    // Close the dialog
+    handleClose();
+  };
+
+
   const [maximumTries, setMaximumTries] = useState(0);
   const handleDataUpdate = (data) => {
     addObject(data);
@@ -137,7 +162,7 @@ function MainPage() {
           />
         ))}
       </div>
-      <Dialog open={open} onClose={handleClose}>
+      <Dialog open={open} onClose={seeResults}>
         <DialogContent>
           <DialogContentText>
             {found === true ? (
@@ -155,7 +180,7 @@ function MainPage() {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose}>Play Again</Button>
+          <Button onClick={playAgain}>Play Again</Button>
         </DialogActions>
       </Dialog>
     </>
