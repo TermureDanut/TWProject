@@ -33,6 +33,7 @@ public class PlayerService {
     public Player getRandomPlayer() {
         List<Player> players = playerRepo.findAll();
         int random = (int) (Math.random() * players.size());
+        System.out.println(players.get(random).getName());
         return players.get(random);
     }
 }

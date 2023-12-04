@@ -7,12 +7,12 @@ import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
-import "./unknown.png";
+import unknownPhoto from "./unknown.png";
 
 function MainPage() {
   const [inputList, setInputList] = useState([]);
 
-  const unknownImage = "./unknown.png";
+  const unknownImage = unknownPhoto;
   const reversedInputList = [...inputList].reverse();
 
   const [correctPlayer, setCorrectPlayer] = useState({});
