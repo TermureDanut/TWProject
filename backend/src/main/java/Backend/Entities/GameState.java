@@ -65,4 +65,11 @@ public class GameState {
     public void setPlayer2Finished(boolean finished) {
         this.player2Finished = finished;
     }
+
+    public void reset() {
+        this.player1Guesses = 0;
+        this.player2Guesses = 0;
+        this.player1Finished = false;
+        this.player2Finished = false;
+    }
 }

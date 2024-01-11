@@ -13,11 +13,11 @@ public class BackendApplication {
 
 	public static void main(String[] args) throws IOException {
 		ConfigurableApplicationContext context = SpringApplication.run(BackendApplication.class, args);
-		Server server = context.getBean(Server.class);
+		/*Server server = context.getBean(Server.class);
 		try {
 			server.startServer();
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
+		}*/
 	}
 }

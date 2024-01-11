@@ -28,19 +28,19 @@ public class Server {
     private final Map<Integer, Integer> playerGuessCounts = new HashMap<>();
 
     private AtomicInteger playerCount = new AtomicInteger(0);
+    private AtomicInteger playersConnected = new AtomicInteger(0);
 
     public void startServer() throws IOException {
         try (ServerSocket serverSocket = new ServerSocket(12345)) {
             System.out.println("Server started. Waiting for players...");
 
             Socket clientSocket = null;
-            while (playerAssignments.size() < 1) {
+            while (playersConnected.get() < 2) {
                 clientSocket = serverSocket.accept();
                 playerCount.incrementAndGet();
-                int clientId = playerAssignments.size() + 1;
+                int clientId = playersConnected.incrementAndGet();
                 System.out.println("Player " + clientId + " connected.");
                 handlePlayer(clientSocket, clientId);
-
             }
             System.out.println("Both players have connected. Starting game...");
             while (true)
@@ -75,11 +75,11 @@ public class Server {
             try (BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
                  PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true)) {
 
+
+
                 while (playerCount.get() < 2) {
-                    out.println("Waiting for another player to connect...");
                 }
 
-                // Assign a random player to this client
                 Player assignedPlayer = playerService.getRandomPlayer();
                 playerAssignments.put(playerId, assignedPlayer);
                 playerGuessCounts.put(playerId, 0);
@@ -92,7 +92,6 @@ public class Server {
 
                 out.println("Your assigned player is: " + assignedPlayer.getName());
 
-                // Handle guesses
                 String guess;
                 while ((guess = in.readLine()) != null) {
                     if (handleGuess(playerId, guess)) {
@@ -126,9 +125,6 @@ public class Server {
                 }
                 System.out.println("Player " + playerId + " has disconnected.");
             } finally {
-                //playerAssignments.remove(playerId);
-                //System.out.println("Player " + playerId + " has disconnected.");
-                //clientSocket.close();
             }
         }).start();
     }
