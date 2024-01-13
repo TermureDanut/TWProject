@@ -41,3 +41,23 @@
   font-size: 20px;
   font-family: "Arial", sans-serif;
 }
+
+.text {
+  height: 120px;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 100px;
+}
+
+.sp_mp_buttons {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid #000; /* Add a border for better visibility, you can adjust or remove it as needed */
+  color: #000; /* Set text color */
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
