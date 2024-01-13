@@ -14,6 +14,8 @@ import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
 
+
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/game")
 public class GameController {

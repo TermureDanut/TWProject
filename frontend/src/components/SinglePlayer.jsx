@@ -66,7 +66,7 @@ function MainPage() {
 
   const seeResults = () => {
     setOpen(false);
-  }
+  };
 
   const playAgain = () => {
     // Reset the state variables
@@ -87,7 +87,6 @@ function MainPage() {
     // Close the dialog
     handleClose();
   };
-
 
   const [maximumTries, setMaximumTries] = useState(0);
   const handleDataUpdate = (data) => {
