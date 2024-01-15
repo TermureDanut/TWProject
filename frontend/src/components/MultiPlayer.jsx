@@ -3,12 +3,13 @@ import axios from "axios";
 import Card from "./GuessCard/Card";
 import SearchBar from "./SearchBar/SearchBar";
 import unknownPhoto from "./unknown.png";
+import Button from "@mui/material/Button";
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import DialogContentText from "@mui/material/DialogContentText";
 
 function Multiplayer() {
-  const [clientId, setClientId] = useState(null);
-  const [guess, setGuess] = useState("");
-  const [gameState, setGameState] = useState(null);
-
   const [name1, setName1] = useState("");
   const [shirt1, setShirt1] = useState();
   const [position1, setPosition1] = useState("");
@@ -30,31 +31,33 @@ function Multiplayer() {
   const [inputList1, setInputList1] = useState([]);
   const [inputList2, setInputList2] = useState([]);
 
-  const [searchInput1, setSearchInput1] = useState("");
-  const [searchInput2, setSearchInput2] = useState("");
-
   const reversedInputList1 = [...inputList1].reverse();
   const reversedInputList2 = [...inputList2].reverse();
 
-  const [correctPlayer, setCorrectPlayer] = useState({});
+  const [player1Selection, setPlayer1Selection] = useState({});
+  const [player2Selection, setPlayer2Selection] = useState({});
+  const [player1Guesses, setPlayer1Guesses] = useState(0);
+  const [player2Guesses, setPlayer2Guesses] = useState(0);
+  const [player1Finished, setPlayer1Finished] = useState(false);
+  const [player2Finished, setPlayer2Finished] = useState(true);
 
-  const fetchPlayer = async () => {
+  const updateGameState = async () => {
     try {
-      const response = await fetch("http://localhost:8080/players/random");
+      const response = await axios.get("http://localhost:8080/api/game/state");
 
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-
-      const result = await response.json();
-      setCorrectPlayer(result);
+      setPlayer1Selection(response.data.player1Selection);
+      setPlayer2Selection(response.data.player2Selection);
+      setPlayer1Guesses(response.data.player1Guesses);
+      setPlayer2Guesses(response.data.player2Guesses);
+      setPlayer1Finished(response.data.player1Finished);
+      setPlayer2Finished(response.data.player2Finished);
     } catch (error) {
-      console.error("Error fetching data:", error);
+      console.error("Error updating game state:", error);
     }
   };
 
   useEffect(() => {
-    fetchPlayer();
+    updateGameState();
   }, []);
 
   const [open, setOpen] = useState(false);
@@ -63,91 +66,20 @@ function Multiplayer() {
   const handleClickOpen = () => {
     setOpen(true);
   };
-  // const handleClose = () => {
-  //   setOpen(false);
-  //   setName("");
-  //   setShirt("");
-  //   setPosition("");
-  //   setAge();
-  //   setTeam("");
-  //   setNationality("");
-  //   setImage("");
-  // };
 
   const [maximumTries1, setMaximumTries1] = useState(0);
   const [maximumTries2, setMaximumTries2] = useState(0);
-  useEffect(() => {
-    const connectClient = async () => {
-      try {
-        const response = await axios.post(
-          "http://localhost:8080/api/game/connectClient"
-        );
-        console.log(response.data);
-        setClientId(
-          response.data.startsWith("Client")
-            ? parseInt(response.data.split(" ")[1])
-            : null
-        );
-      } catch (error) {
-        console.error("Error connecting client:", error);
-      }
-    };
 
-    connectClient();
-  }, []);
-
-  const connectSecondClient = async () => {
-    try {
-      const response = await axios.post(
-        "http://localhost:8080/api/game/connectClient"
-      );
-      console.log(response.data);
-      setClientId(
-        response.data.startsWith("Client")
-          ? parseInt(response.data.split(" ")[1])
-          : null
-      );
-    } catch (error) {
-      console.error("Error connecting client:", error);
-    }
-  };
-
-  const startGame = async () => {
-    try {
-      const response = await axios.post("http://localhost:8080/api/game/start");
-      console.log(response.data);
-      updateGameState();
-    } catch (error) {
-      console.error("Error starting the game:", error);
-    }
-  };
-
-  const makeGuess = async () => {
+  const makeGuess = async (clientId, guess) => {
     try {
       const response = await axios.post(
         `http://localhost:8080/api/game/guess/${clientId}`,
         { guess }
       );
-      console.log(response.data);
       updateGameState();
     } catch (error) {
       console.error("Error making guess:", error);
     }
-  };
-
-  const updateGameState = async () => {
-    try {
-      const response = await axios.get("http://localhost:8080/api/game/state");
-      setGameState(response.data);
-    } catch (error) {
-      console.error("Error updating game state:", error);
-    }
-  };
-
-  const [showSecondDiv, setShowSecondDiv] = useState(false);
-  const connectSecondPlayer = () => {
-    connectSecondClient();
-    setShowSecondDiv(true);
   };
 
   const addObject = (newObject, playerNumber) => {
@@ -161,18 +93,20 @@ function Multiplayer() {
   const handleDataUpdate1 = (data) => {
     addObject(data, 1);
     setMaximumTries1(maximumTries1 + 1);
-    if (data.name === correctPlayer.name) {
-      setName1(correctPlayer.name);
-      setShirt1(correctPlayer.shirtNumber);
-      setPosition1(correctPlayer.position);
-      setAge1(correctPlayer.age);
-      setTeam1(correctPlayer.team);
-      setNationality1(correctPlayer.nationality);
-      setImage1(correctPlayer.imageUrl);
+    makeGuess(1, data.name);
+
+    if (data.name === player1Selection.name) {
+      setName1(player1Selection.name);
+      setShirt1(player1Selection.shirtNumber);
+      setPosition1(player1Selection.position);
+      setAge1(player1Selection.age);
+      setTeam1(player1Selection.team);
+      setNationality1(player1Selection.nationality);
+      setImage1(player1Selection.imageUrl);
       setFound1(true);
       handleClickOpen();
     } else {
-      if (maximumTries1 == 7) {
+      if (maximumTries1 === 7) {
         handleClickOpen();
         setFound1(false);
         setMaximumTries1(0);
@@ -184,24 +118,30 @@ function Multiplayer() {
   const handleDataUpdate2 = (data) => {
     addObject(data, 2);
     setMaximumTries2(maximumTries2 + 1);
-    if (data.name === correctPlayer.name) {
-      setName2(correctPlayer.name);
-      setShirt2(correctPlayer.shirtNumber);
-      setPosition2(correctPlayer.position);
-      setAge2(correctPlayer.age);
-      setTeam2(correctPlayer.team);
-      setNationality2(correctPlayer.nationality);
-      setImage2(correctPlayer.imageUrl);
+    makeGuess(2, data.name);
+
+    if (data.name === player2Selection.name) {
+      setName2(player2Selection.name);
+      setShirt2(player2Selection.shirtNumber);
+      setPosition2(player2Selection.position);
+      setAge2(player2Selection.age);
+      setTeam2(player2Selection.team);
+      setNationality2(player2Selection.nationality);
+      setImage2(player2Selection.imageUrl);
       setFound2(true);
       handleClickOpen();
     } else {
-      if (maximumTries2 == 7) {
+      if (maximumTries2 === 7) {
         handleClickOpen();
         setFound2(false);
         setMaximumTries2(0);
         setInputList2([]);
       }
     }
+  };
+
+  const handleClose = () => {
+    setOpen(false);
   };
 
   return (
@@ -214,14 +154,7 @@ function Multiplayer() {
             justifyContent: "space-between",
             marginBottom: "20px",
           }}
-        >
-          <button className="sp_mp_buttons" onClick={connectSecondPlayer}>
-            Connect Second Player
-          </button>
-          <button className="sp_mp_buttons" onClick={startGame}>
-            Start
-          </button>
-        </div>
+        ></div>
         <div
           style={{
             display: "flex",
@@ -271,71 +204,100 @@ function Multiplayer() {
               {reversedInputList1.map((player, index) => (
                 <Card
                   key={index}
-                  correctPlayer={correctPlayer}
+                  correctPlayer={player1Selection}
                   guessedPlayer={player}
                 />
               ))}
             </div>
           </div>
-          {showSecondDiv && (
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                marginLeft: "100px",
-              }}
-            >
-              <div>Player 2</div>
-              <div>
-                <div className="cardStyle">
-                  <div className="result">
-                    <div className="result_div">{name2}</div>
-                    <div className="result_div">{shirt2}</div>
-                    <div className="result_div">{position2}</div>
-                    <div className="result_div">{age2}</div>
-                    <div className="result_div">{team2}</div>
-                    <div className="result_div">{nationality2}</div>
-                  </div>
-                  <div
-                    style={{
-                      width: "60%",
-                      height: "80%",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                    }}
-                  >
-                    <img
-                      src={found2 === false ? unknownImage : image2}
-                      style={{ width: "60%", height: "80%" }}
-                    />
-                  </div>
-                </div>
-                <SearchBar onDataUpdate={(data) => handleDataUpdate2(data)} />
-              </div>
-              {maximumTries2 === 0 ? (
-                <div className="try_number">
-                  <p> </p>
-                </div>
-              ) : (
-                <div className="try_number">
-                  <p>{maximumTries2} / 8</p>
-                </div>
-              )}
 
-              <div>
-                {reversedInputList2.map((player, index) => (
-                  <Card
-                    key={index}
-                    correctPlayer={correctPlayer}
-                    guessedPlayer={player}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              marginLeft: "100px",
+            }}
+          >
+            <div>Player 2</div>
+            <div>
+              <div className="cardStyle">
+                <div className="result">
+                  <div className="result_div">{name2}</div>
+                  <div className="result_div">{shirt2}</div>
+                  <div className="result_div">{position2}</div>
+                  <div className="result_div">{age2}</div>
+                  <div className="result_div">{team2}</div>
+                  <div className="result_div">{nationality2}</div>
+                </div>
+                <div
+                  style={{
+                    width: "60%",
+                    height: "80%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <img
+                    src={found2 === false ? unknownImage : image2}
+                    style={{ width: "60%", height: "80%" }}
                   />
-                ))}
+                </div>
               </div>
+              <SearchBar onDataUpdate={(data) => handleDataUpdate2(data)} />
             </div>
-          )}
+            {maximumTries2 === 0 ? (
+              <div className="try_number">
+                <p> </p>
+              </div>
+            ) : (
+              <div className="try_number">
+                <p>{maximumTries2} / 8</p>
+              </div>
+            )}
+
+            <div>
+              {reversedInputList2.map((player, index) => (
+                <Card
+                  key={index}
+                  correctPlayer={player2Selection}
+                  guessedPlayer={player}
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
+      <Dialog open={open} onClose={handleClose}>
+        <DialogContent>
+          <DialogContentText>
+            {player1Finished && player2Finished ? (
+              player1Guesses < player2Guesses ? (
+                <div className="dialog_text">
+                  <p> Player 1 wins </p>
+                </div>
+              ) : player1Guesses > player2Guesses ? (
+                <div className="dialog_text">
+                  <p> Player 2 wins </p>
+                </div>
+              ) : (
+                <div className="dialog_text">
+                  <p> It's a tie! </p>
+                </div>
+              )
+            ) : player1Finished ? (
+              <div className="dialog_text">
+                <p> Player 1 wins </p>
+              </div>
+            ) : player2Finished ? (
+              <div className="dialog_text">
+                <p> Player 2 wins </p>
+              </div>
+            ) : null}
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions></DialogActions>
+      </Dialog>
     </div>
   );
 }

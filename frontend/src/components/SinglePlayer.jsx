@@ -9,7 +9,7 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import unknownPhoto from "./unknown.png";
 
-function MainPage() {
+function Singleplayer() {
   const [inputList, setInputList] = useState([]);
 
   const unknownImage = unknownPhoto;
@@ -69,7 +69,6 @@ function MainPage() {
   };
 
   const playAgain = () => {
-    // Reset the state variables
     setName("");
     setShirt("");
     setPosition("");
@@ -81,10 +80,7 @@ function MainPage() {
     setMaximumTries(0);
     setInputList([]);
 
-    // Fetch a new player
     fetchPlayer();
-
-    // Close the dialog
     handleClose();
   };
 
@@ -185,4 +181,4 @@ function MainPage() {
   );
 }
 
-export default MainPage;
+export default Singleplayer;
