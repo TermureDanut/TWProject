@@ -2,6 +2,9 @@ package Backend.Entities;
 
 import Backend.Entities.Player;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class GameState {
     private Player player1Selection;
     private Player player2Selection;
@@ -9,6 +12,9 @@ public class GameState {
     private int player2Guesses = 0;
     private boolean player1Finished = false;
     private boolean player2Finished = false;
+
+    private List<Player> jugador1 = new ArrayList<Player>();
+    private List<Player> jugador2 = new ArrayList<Player>();
 
     public GameState() {
     }
@@ -66,10 +72,36 @@ public class GameState {
         this.player2Finished = finished;
     }
 
+    public List<Player> getJugador1() {
+        return jugador1;
+    }
+
+    public void setJugador1(List<Player> jugador1) {
+        this.jugador1 = jugador1;
+    }
+
+    public List<Player> getJugador2() {
+        return jugador2;
+    }
+
+    public void setJugador2(List<Player> jugador2) {
+        this.jugador2 = jugador2;
+    }
+
+    public void addJugador(int id, Player player){
+        if(id == 1){
+            jugador1.add(player);
+        } else {
+            jugador2.add(player);
+        }
+    }
+
     public void reset() {
         this.player1Guesses = 0;
         this.player2Guesses = 0;
         this.player1Finished = false;
         this.player2Finished = false;
+        this.jugador1 = new ArrayList<Player>();
+        this.jugador2 = new ArrayList<Player>();
     }
 }

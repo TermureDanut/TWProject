@@ -8,8 +8,23 @@ import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
+import { useLocation } from 'react-router-dom';
 
-function Multiplayer() {
+function Multiplayer({route, navigation}) {
+
+  const location = useLocation();
+  //const { clientResponse } = location.state || {};
+  const { clientResponse} = route?.params || {};
+
+  /*useEffect(() => {
+    if (clientResponse) {
+      console.log("Client is " + clientResponse);
+    } else {
+      console.log("Client response is null");
+    }
+  }, []);*/
+  console.log("Client is " + clientResponse);
+
   const [name1, setName1] = useState("");
   const [shirt1, setShirt1] = useState();
   const [position1, setPosition1] = useState("");
@@ -244,7 +259,6 @@ function Multiplayer() {
                   />
                 </div>
               </div>
-              <SearchBar onDataUpdate={(data) => handleDataUpdate2(data)} />
             </div>
             {maximumTries2 === 0 ? (
               <div className="try_number">

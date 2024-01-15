@@ -65,18 +65,21 @@ public class GameController {
 
     @PostMapping("/guess/{clientId}")
     public ResponseEntity<String> makeGuess(@PathVariable int clientId, @RequestBody String guess) {
+
+
+
         if (!playerAssignments.containsKey(clientId)) {
             return ResponseEntity.badRequest().body("Client not part of the game.");
         }
 
         if(clientId == 1){
-            if(gameState.getPlayer1Guesses()> 8){
+            if(gameState.getPlayer1Guesses()>= 8){
                 return ResponseEntity.ok("Out of guesses");
             }
         }
         else
         {
-            if(gameState.getPlayer2Guesses()> 8){
+            if(gameState.getPlayer2Guesses()>= 8){
                 return ResponseEntity.ok("Out of guesses");
             }
         }
@@ -92,6 +95,11 @@ public class GameController {
     }
 
     private boolean handleGuess(int clientId, String guess) {
+
+
+        Player jsonPlayer = playerService.getPlayerByName(guess);
+        gameState.addJugador(clientId, jsonPlayer);
+
         Player assignedPlayer = playerAssignments.get(clientId);
         int guessCount = playerGuessCounts.getOrDefault(clientId, 0) + 1;
         System.out.println("Guess count for player: " + clientId + "is : " + guessCount);

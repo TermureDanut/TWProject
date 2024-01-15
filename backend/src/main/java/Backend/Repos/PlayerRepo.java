@@ -16,5 +16,7 @@ public interface PlayerRepo extends JpaRepository<Player, Integer> {
     List<Player> findByTeam(String team);
     List<Player> findByPosition(String position);
     List<Player> findByAge(int age);
-    List<Player> findByName(String name);
+
+    Optional<Player> findByName(String name);
+
 }

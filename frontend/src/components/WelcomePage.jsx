@@ -4,11 +4,18 @@ import "./style.css";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
+import DynamicDialogContent from './DynamicDialogContent';
 
-function WelcomePage() {
+function WelcomePage({navigation}) {
   const navigate = useNavigate();
 
   const [open, setOpen] = useState(false);
+  const [clientResponse, setClientResponse] = useState(null); 
+
+  const delay = ms => new Promise(
+      resolve => setTimeout(resolve, ms)
+  );
+
 
   const connectClient = async () => {
     const response = await fetch(
@@ -17,7 +24,6 @@ function WelcomePage() {
         method: "POST",
       }
     );
-    console.log(response.json());
   };
 
   const startGame = async () => {
@@ -25,6 +31,8 @@ function WelcomePage() {
       const response = await fetch("http://localhost:8080/api/game/start", {
         method: "POST",
       });
+
+      //console.log(response);
 
       if (response.ok) {
         console.log(response.json());
@@ -41,11 +49,24 @@ function WelcomePage() {
   const goToMultiplayer = async () => {
     setOpen(true);
     await connectClient();
+    let value = 0;
+    while(true){
 
-    if ((await startGame()) === 1) {
-      setOpen(false);
-      navigate("/multiplayer");
+      value += 1;
+      if ((await startGame()) === 1) {
+        await delay(1000);
+        setOpen(false);
+        //history.push("/multiplayer", { clientResponse: data });
+        //navigate("/multiplayer", { state: { clientResponse: clientResponse } }); // Ensure clientResponse is the updated state
+        console.log("Value is: " + value);
+        navigate('/multiplayer', { clientResponse: clientResponse });
+        break;
+      }
     }
+    if(value === 1){
+      navigate('/mսltiplayer')
+    }
+
   };
 
   const goToSingleplayer = () => {
@@ -70,9 +91,7 @@ function WelcomePage() {
         MultiPlayer
       </button>
       <Dialog open={open}>
-        <DialogContent>
-          <DialogContentText>Waiting for another player</DialogContentText>
-        </DialogContent>
+        <DynamicDialogContent />
       </Dialog>
     </div>
   );

@@ -1,4 +1,6 @@
 package Backend.Services;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
@@ -28,6 +30,19 @@ public class PlayerService {
 
     public Optional<Player> getPlayerById(int id){
         return playerRepo.findById(id);
+    }
+
+    public Player getPlayerByName(String name){
+        JsonObject jsonObject = JsonParser.parseString(name).getAsJsonObject();
+        String stringGuess = jsonObject.get("guess").getAsString();
+        List<Player> players = playerRepo.findAll();
+        for (Player player : players) {
+            if (player.getName().equals(stringGuess)) {
+
+                return player;
+            }
+        }
+        return null;
     }
 
     public Player getRandomPlayer() {

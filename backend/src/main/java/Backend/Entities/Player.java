@@ -25,8 +25,10 @@ public class Player {
     @Column
     private String nationality;
 
+    public Player() {
+    }
 
-
-
-
+    public String getName() {
+        return name;
+    }
 }
