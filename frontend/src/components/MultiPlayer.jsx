@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Card from "./GuessCard/Card";
 import SearchBar from "./SearchBar/SearchBar";
+import DisabledSearchBar from "./DisabledSearchBar/DisabledSearchBar";
 import unknownPhoto from "./unknown.png";
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
@@ -56,6 +57,12 @@ function Multiplayer({route, navigation}) {
   const [player1Finished, setPlayer1Finished] = useState(false);
   const [player2Finished, setPlayer2Finished] = useState(true);
 
+  const [jugador1, setJugador1] = useState([]);
+  const [jugador2, setJugador2] = useState([]);
+
+  const jugador1reversed = [...jugador1].reverse();
+    const jugador2reversed = [...jugador2].reverse();
+
   const updateGameState = async () => {
     try {
       const response = await axios.get("http://localhost:8080/api/game/state");
@@ -66,13 +73,20 @@ function Multiplayer({route, navigation}) {
       setPlayer2Guesses(response.data.player2Guesses);
       setPlayer1Finished(response.data.player1Finished);
       setPlayer2Finished(response.data.player2Finished);
+
+      setJugador1(response.data.jugador1);
+      setJugador2(response.data.jugador2);
+
     } catch (error) {
       console.error("Error updating game state:", error);
     }
   };
 
   useEffect(() => {
-    updateGameState();
+    const intervalId = setInterval(() => {
+      updateGameState();
+    }, 1000);
+    return () => clearInterval(intervalId);
   }, []);
 
   const [open, setOpen] = useState(false);
@@ -100,8 +114,10 @@ function Multiplayer({route, navigation}) {
   const addObject = (newObject, playerNumber) => {
     if (playerNumber === 1) {
       setInputList1([...inputList1, newObject]);
+      //setJugador1([...jugador1, newObject]);
     } else if (playerNumber === 2) {
       setInputList2([...inputList2, newObject]);
+      //setJugador2([...jugador2, newObject]);
     }
   };
 
@@ -128,6 +144,7 @@ function Multiplayer({route, navigation}) {
         setInputList1([]);
       }
     }
+
   };
 
   const handleDataUpdate2 = (data) => {
@@ -153,6 +170,7 @@ function Multiplayer({route, navigation}) {
         setInputList2([]);
       }
     }
+
   };
 
   const handleClose = () => {
@@ -216,7 +234,7 @@ function Multiplayer({route, navigation}) {
             )}
 
             <div>
-              {reversedInputList1.map((player, index) => (
+              {jugador1reversed.map((player, index) => (
                 <Card
                   key={index}
                   correctPlayer={player1Selection}
@@ -259,6 +277,7 @@ function Multiplayer({route, navigation}) {
                   />
                 </div>
               </div>
+            <DisabledSearchBar/>
             </div>
             {maximumTries2 === 0 ? (
               <div className="try_number">
@@ -271,7 +290,7 @@ function Multiplayer({route, navigation}) {
             )}
 
             <div>
-              {reversedInputList2.map((player, index) => (
+              {jugador2reversed.map((player, index) => (
                 <Card
                   key={index}
                   correctPlayer={player2Selection}
