@@ -156,7 +156,7 @@ function Singleplayer() {
           />
         ))}
       </div>
-      <Dialog open={open} onClose={seeResults}>
+      <Dialog open={open}>
         <DialogContent>
           <DialogContentText>
             {found === true ? (

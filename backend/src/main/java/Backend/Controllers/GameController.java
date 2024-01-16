@@ -143,9 +143,11 @@ public class GameController {
         if (gameState.getPlayer1Finished() && gameState.getPlayer2Finished()) {
             if(gameState.getPlayer1Guesses() < gameState.getPlayer2Guesses()){
                 System.out.println("Player 1 wins!");
+                gameState.setPlayer1Score(gameState.getPlayer1Score() + 1);
                 //gameState.setWinner(gameState.getPlayer1Selection());
             } else if(gameState.getPlayer1Guesses() > gameState.getPlayer2Guesses()){
                 System.out.println("Player 2 wins!");
+                gameState.setPlayer2Score(gameState.getPlayer2Score() + 1);
                 //gameState.setWinner(gameState.getPlayer2Selection());
             } else {
                 System.out.println("It's a tie!");

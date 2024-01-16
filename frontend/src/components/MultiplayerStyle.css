@@ -1,0 +1,83 @@
+/* Multiplayer component styles */
+.Multiplayer {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+.body{
+}
+
+/* Styling for player score display */
+.player-score {
+    font-size: 1.2em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Card and result styles */
+.cardStyle {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border : 1px solid #3498db;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.result_div {
+    margin-bottom: 10px;
+}
+
+/* Image styling */
+.result img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Search bar styling */
+.SearchBar {
+    margin-bottom: 20px;
+}
+
+/* Dialog box styling */
+.Dialog {
+    border-radius: 10px;
+}
+
+.dialog_text {
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+/* Try number display */
+.try_number {
+    font-size: 1em;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .result {
+        flex-direction: column;
+    }
+
+    .cardStyle {
+        margin: 0 10px 20px 10px;
+    }
+}
+
+.textStyle{
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em;
+    color: #3498db;
+    padding-top: 2%;
+}

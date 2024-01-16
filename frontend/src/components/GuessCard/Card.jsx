@@ -14,7 +14,7 @@ const Card = ({ correctPlayer, guessedPlayer }) => {
     return (
         <div className="card">
             <div className="guess_name">
-                <p className={correctPlayer.name === guessedPlayer.name ? "correct" : "incorrect"}>
+                <p className= "nada">
                     {guessedPlayer.name}
                 </p>
             </div>

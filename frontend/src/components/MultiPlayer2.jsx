@@ -10,6 +10,8 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import { useLocation } from 'react-router-dom';
 import DisabledSearchBar from "./DisabledSearchBar/DisabledSearchBar";
+import "./MultiplayerStyle.css";
+
 
 function Multiplayer({route, navigation}) {
 
@@ -55,9 +57,12 @@ function Multiplayer({route, navigation}) {
     const [player1Guesses, setPlayer1Guesses] = useState(0);
     const [player2Guesses, setPlayer2Guesses] = useState(0);
     const [player1Finished, setPlayer1Finished] = useState(false);
-    const [player2Finished, setPlayer2Finished] = useState(true);
+    const [player2Finished, setPlayer2Finished] = useState(false);
     const [jugador1, setJugador1] = useState([]);
     const [jugador2, setJugador2] = useState([]);
+
+    const [player1score, setPlayer1Score] = useState(0);
+    const [player2score, setPlayer2Score] = useState(0);
 
     const jugador1reversed = [...jugador1].reverse();
     const jugador2reversed = [...jugador2].reverse();
@@ -74,28 +79,88 @@ function Multiplayer({route, navigation}) {
             setPlayer2Finished(response.data.player2Finished);
             setJugador1(response.data.jugador1);
             setJugador2(response.data.jugador2);
+            setPlayer1Score(response.data.player1Score);
+            setPlayer2Score(response.data.player2Score);
 
-            if(player1Finished){
-                let guess = jugador2[jugador2.length - 1];
-                console.log("Guess: " + guess)
-                handleDataUpdate2(guess);
+
+            if(response.data.player1Finished === true){
+                setName1(response.data.player1Selection.name);
+                setShirt1(response.data.player1Selection.shirtNumber);
+                setPosition1(response.data.player1Selection.position);
+                setAge1(response.data.player1Selection.age);
+                setTeam1(response.data.player1Selection.team);
+                setNationality1(response.data.player1Selection.nationality);
+                setImage1(response.data.player1Selection.imageUrl);
+                setFound1(true);
             }
 
-            if(player2Finished){
-                let guess = jugador1[jugador1.length - 1];
-                console.log("Guess: " + guess)
-                handleDataUpdate1(guess);
+            if(response.data.player1Finished === false && response.data.player2Finished ===false){
+
+                setName1("");
+                setShirt1("");
+                setPosition1("");
+                setAge1();
+                setTeam1("");
+                setNationality1("");
+                setImage1("");
+                setName2("");
+                setShirt2("");
+                setPosition2("");
+                setAge2();
+                setTeam2("");
+                setNationality2("");
+                setImage2("");
+                setFound1(false);
+                setFound2(false);
+                setOpen(false);
             }
 
+
+            console.log("Player 2 finished: " + player2Finished);
+            console.log("Player 2 API is: " + response.data.player2Finished);
+            console.log("Player 2 API GUESSES: " + response.data.player2Guesses);
         } catch (error) {
             console.error("Error updating game state:", error);
         }
     };
 
+    const resetGame = () => {
+        try {
+            const response = fetch("http://localhost:8080/api/game/start", {
+                method: "POST",
+            });
+
+            if(response.ok){
+                updateGameState();
+            }
+
+            setName1("");
+            setShirt1("");
+            setPosition1("");
+            setAge1();
+            setTeam1("");
+            setNationality1("");
+            setImage1("");
+            setName2("");
+            setShirt2("");
+            setPosition2("");
+            setAge2();
+            setTeam2("");
+            setNationality2("");
+            setImage2("");
+            setFound1(false);
+            setFound2(false);
+            setOpen(false);
+            setPlayer2Guesses(0);
+        }catch (error) {
+            return 0;
+        }
+    }
+
     useEffect(() => {
         const intervalId = setInterval(() => {
             updateGameState();
-        }, 1000);
+        }, 500);
 
         return () => clearInterval(intervalId);
     }, []);
@@ -117,6 +182,7 @@ function Multiplayer({route, navigation}) {
                 { guess }
             );
             updateGameState();
+
         } catch (error) {
             console.error("Error making guess:", error);
         }
@@ -134,10 +200,10 @@ function Multiplayer({route, navigation}) {
 
     const handleDataUpdate1 = (data) => {
         addObject(data, 1);
-        setMaximumTries1(maximumTries1 + 1);
+        setMaximumTries1("");
         makeGuess(1, data.name);
 
-        if (data.name === player1Selection.name) {
+        if (player1Finished) {
             setName1(player1Selection.name);
             setShirt1(player1Selection.shirtNumber);
             setPosition1(player1Selection.position);
@@ -159,7 +225,7 @@ function Multiplayer({route, navigation}) {
 
     const handleDataUpdate2 = (data) => {
         addObject(data, 2);
-        setMaximumTries2(maximumTries2 + 1);
+        setMaximumTries2(player2Guesses + 1);
         makeGuess(2, data.name);
 
         if (data.name === player2Selection.name) {
@@ -171,6 +237,7 @@ function Multiplayer({route, navigation}) {
             setNationality2(player2Selection.nationality);
             setImage2(player2Selection.imageUrl);
             setFound2(true);
+            setPlayer2Finished(true);
             handleClickOpen();
         } else {
             if (maximumTries2 === 7) {
@@ -204,7 +271,7 @@ function Multiplayer({route, navigation}) {
                     }}
                 >
                     <div style={{ display: "flex", flexDirection: "column" }}>
-                        <div>Player 1</div>
+                        <div className="textStyle">Player 1 score: {player1score}</div>
                         <div style={{ display: "flex", flexDirection: "column" }}>
                             <div className="cardStyle">
                                 <div className="result">
@@ -238,7 +305,7 @@ function Multiplayer({route, navigation}) {
                             </div>
                         ) : (
                             <div className="try_number">
-                                <p>{maximumTries1} / 8</p>
+                                <p>{}</p>
                             </div>
                         )}
 
@@ -260,7 +327,7 @@ function Multiplayer({route, navigation}) {
                             marginLeft: "100px",
                         }}
                     >
-                        <div>Player 2</div>
+                        <div className="textStyle">Player 2 score: {player2score}</div>
                         <div>
                             <div className="cardStyle">
                                 <div className="result">
@@ -288,13 +355,13 @@ function Multiplayer({route, navigation}) {
                             </div>
                             <SearchBar onDataUpdate={(data) => handleDataUpdate2(data)} />
                         </div>
-                        {maximumTries2 === 0 ? (
+                        {player2Guesses === 0 ? (
                             <div className="try_number">
                                 <p> </p>
                             </div>
                         ) : (
                             <div className="try_number">
-                                <p>{maximumTries2} / 8</p>
+                                <p>{player2Guesses} / 8</p>
                             </div>
                         )}
 
@@ -310,7 +377,7 @@ function Multiplayer({route, navigation}) {
                     </div>
                 </div>
             </div>
-            <Dialog open={open} onClose={handleClose}>
+            <Dialog open={open}>
                 <DialogContent>
                     <DialogContentText>
                         {player1Finished && player2Finished ? (
@@ -326,16 +393,9 @@ function Multiplayer({route, navigation}) {
                                 <div className="dialog_text">
                                     <p> It's a tie! </p>
                                 </div>
-                            )
-                        ) : player1Finished ? (
-                            <div className="dialog_text">
-                                <p> Player 1 wins </p>
-                            </div>
-                        ) : player2Finished ? (
-                            <div className="dialog_text">
-                                <p> Player 2 wins </p>
-                            </div>
-                        ) : null}
+                            )):<div className="dialog_text">
+                            <p> Waiting for other player to finish </p>
+                        </div>}
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions></DialogActions>

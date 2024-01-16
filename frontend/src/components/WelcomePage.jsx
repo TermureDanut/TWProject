@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
+
 import { useNavigate } from "react-router-dom";
-import "./style.css";
+import "./Welcomestyle.css";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DynamicDialogContent from './DynamicDialogContent';
+import logo from './logo.png';
+import anthem from './OM ANTHEM.mp3';
 
 function WelcomePage({navigation}) {
   const navigate = useNavigate();
@@ -15,6 +18,15 @@ function WelcomePage({navigation}) {
   const delay = ms => new Promise(
       resolve => setTimeout(resolve, ms)
   );
+
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.play();
+    }
+  }, []);
+
 
 
   const connectClient = async () => {
@@ -54,7 +66,7 @@ function WelcomePage({navigation}) {
 
       value += 1;
       if ((await startGame()) === 1) {
-        await delay(1000);
+        await delay(2000);
         setOpen(false);
         //history.push("/multiplayer", { clientResponse: data });
         //navigate("/multiplayer", { state: { clientResponse: clientResponse } }); // Ensure clientResponse is the updated state
@@ -83,7 +95,10 @@ function WelcomePage({navigation}) {
         justifyContent: "center",
       }}
     >
-      <div className="text">FootyFinderRO</div>
+
+      <div className="img">
+        <img src= {logo} />
+      </div>
       <button className="sp_mp_buttons" onClick={goToSingleplayer}>
         SinglePlayer
       </button>
@@ -95,6 +110,7 @@ function WelcomePage({navigation}) {
       </Dialog>
     </div>
   );
+
 }
 
 export default WelcomePage;

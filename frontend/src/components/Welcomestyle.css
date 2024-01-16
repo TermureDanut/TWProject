@@ -1,0 +1,65 @@
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* WelcomePage component styling */
+.WelcomePage {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Styling for the main title */
+.text {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+.sp_mp_buttons {
+    min-width: 400px;
+    min-height: 60px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sp_mp_buttons:hover {
+    background-color: #2980b9;
+}
+
+/* Dialog styling */
+.Dialog {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.DialogContent {
+    color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .text {
+        font-size: 2em;
+    }
+
+    .sp_mp_buttons {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}
+
+.img{
+    margin-top: -70px;
+}

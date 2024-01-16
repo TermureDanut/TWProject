@@ -13,6 +13,9 @@ public class GameState {
     private boolean player1Finished = false;
     private boolean player2Finished = false;
 
+    private int player1Score = 0;
+    private int player2Score = 0;
+
     private List<Player> jugador1 = new ArrayList<Player>();
     private List<Player> jugador2 = new ArrayList<Player>();
 
@@ -22,6 +25,22 @@ public class GameState {
     public GameState(Player player1Selection, Player player2Selection) {
         this.player1Selection = player1Selection;
         this.player2Selection = player2Selection;
+    }
+
+    public int getPlayer1Score() {
+        return player1Score;
+    }
+
+    public int getPlayer2Score() {
+        return player2Score;
+    }
+
+    public void setPlayer1Score(int score) {
+        this.player1Score = score;
+    }
+
+    public void setPlayer2Score(int score) {
+        this.player2Score = score;
     }
 
     public Player getPlayer1Selection() {
