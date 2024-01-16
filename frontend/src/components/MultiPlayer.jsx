@@ -4,26 +4,13 @@ import Card from "./GuessCard/Card";
 import SearchBar from "./SearchBar/SearchBar";
 import DisabledSearchBar from "./DisabledSearchBar/DisabledSearchBar";
 import unknownPhoto from "./unknown.png";
-import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
-import { useLocation } from 'react-router-dom';
 
-function Multiplayer({route, navigation}) {
-
-  const location = useLocation();
-  //const { clientResponse } = location.state || {};
-  const { clientResponse} = route?.params || {};
-
-  /*useEffect(() => {
-    if (clientResponse) {
-      console.log("Client is " + clientResponse);
-    } else {
-      console.log("Client response is null");
-    }
-  }, []);*/
+function Multiplayer({ route }) {
+  const { clientResponse } = route?.params || {};
   console.log("Client is " + clientResponse);
 
   const [name1, setName1] = useState("");
@@ -47,9 +34,6 @@ function Multiplayer({route, navigation}) {
   const [inputList1, setInputList1] = useState([]);
   const [inputList2, setInputList2] = useState([]);
 
-  const reversedInputList1 = [...inputList1].reverse();
-  const reversedInputList2 = [...inputList2].reverse();
-
   const [player1Selection, setPlayer1Selection] = useState({});
   const [player2Selection, setPlayer2Selection] = useState({});
   const [player1Guesses, setPlayer1Guesses] = useState(0);
@@ -61,7 +45,7 @@ function Multiplayer({route, navigation}) {
   const [jugador2, setJugador2] = useState([]);
 
   const jugador1reversed = [...jugador1].reverse();
-    const jugador2reversed = [...jugador2].reverse();
+  const jugador2reversed = [...jugador2].reverse();
 
   const updateGameState = async () => {
     try {
@@ -73,10 +57,17 @@ function Multiplayer({route, navigation}) {
       setPlayer2Guesses(response.data.player2Guesses);
       setPlayer1Finished(response.data.player1Finished);
       setPlayer2Finished(response.data.player2Finished);
-
       setJugador1(response.data.jugador1);
       setJugador2(response.data.jugador2);
 
+      // let guess1 = jugador1[jugador1.length - 1];
+      // console.log("Guess: " + guess1);
+      // handleDataUpdate1(guess1);
+      if (player2Finished) {
+        let guess2 = jugador2[jugador2.length - 1];
+        //console.log("Guess: " + guess2);
+        handleDataUpdate2(guess2);
+      }
     } catch (error) {
       console.error("Error updating game state:", error);
     }
@@ -92,6 +83,7 @@ function Multiplayer({route, navigation}) {
   const [open, setOpen] = useState(false);
   const [found1, setFound1] = useState(false);
   const [found2, setFound2] = useState(false);
+
   const handleClickOpen = () => {
     setOpen(true);
   };
@@ -114,17 +106,16 @@ function Multiplayer({route, navigation}) {
   const addObject = (newObject, playerNumber) => {
     if (playerNumber === 1) {
       setInputList1([...inputList1, newObject]);
-      //setJugador1([...jugador1, newObject]);
     } else if (playerNumber === 2) {
       setInputList2([...inputList2, newObject]);
-      //setJugador2([...jugador2, newObject]);
     }
   };
 
   const handleDataUpdate1 = (data) => {
-    addObject(data, 1);
-    setMaximumTries1(maximumTries1 + 1);
+    //addObject(data, 1);
+
     makeGuess(1, data.name);
+    setMaximumTries1(player1Guesses);
 
     if (data.name === player1Selection.name) {
       setName1(player1Selection.name);
@@ -144,13 +135,31 @@ function Multiplayer({route, navigation}) {
         setInputList1([]);
       }
     }
-
   };
 
+  // const handlePlayer2Update = () => {
+  //   if (player2Finished) {
+  //     if (player2Guesses < 8) {
+  //       const lastGuess = jugador2reversed[0];
+  //       if (player2Selection.name === lastGuess.name) {
+  //         setName2(player2Selection.name);
+  //         setShirt2(player2Selection.shirtNumber);
+  //         setPosition2(player2Selection.position);
+  //         setAge2(player2Selection.age);
+  //         setTeam2(player2Selection.team);
+  //         setNationality2(player2Selection.nationality);
+  //         setImage2(player2Selection.imageUrl);
+  //         setFound2(true);
+  //         handleClickOpen();
+  //       }
+  //     }
+  //   }
+  // };
+
   const handleDataUpdate2 = (data) => {
-    addObject(data, 2);
-    setMaximumTries2(maximumTries2 + 1);
+    //addObject(data, 2);
     makeGuess(2, data.name);
+    setMaximumTries2(player2Guesses);
 
     if (data.name === player2Selection.name) {
       setName2(player2Selection.name);
@@ -170,7 +179,6 @@ function Multiplayer({route, navigation}) {
         setInputList2([]);
       }
     }
-
   };
 
   const handleClose = () => {
@@ -225,7 +233,7 @@ function Multiplayer({route, navigation}) {
             </div>
             {maximumTries1 === 0 ? (
               <div className="try_number">
-                <p> </p>
+                <p></p>
               </div>
             ) : (
               <div className="try_number">
@@ -277,11 +285,11 @@ function Multiplayer({route, navigation}) {
                   />
                 </div>
               </div>
-            <DisabledSearchBar/>
+              <DisabledSearchBar />
             </div>
             {maximumTries2 === 0 ? (
               <div className="try_number">
-                <p> </p>
+                <p></p>
               </div>
             ) : (
               <div className="try_number">
@@ -301,36 +309,30 @@ function Multiplayer({route, navigation}) {
           </div>
         </div>
       </div>
-      <Dialog open={open} onClose={handleClose}>
-        <DialogContent>
-          <DialogContentText>
-            {player1Finished && player2Finished ? (
-              player1Guesses < player2Guesses ? (
-                <div className="dialog_text">
-                  <p> Player 1 wins </p>
-                </div>
-              ) : player1Guesses > player2Guesses ? (
-                <div className="dialog_text">
-                  <p> Player 2 wins </p>
-                </div>
-              ) : (
-                <div className="dialog_text">
-                  <p> It's a tie! </p>
-                </div>
-              )
-            ) : player1Finished ? (
-              <div className="dialog_text">
-                <p> Player 1 wins </p>
-              </div>
-            ) : player2Finished ? (
-              <div className="dialog_text">
-                <p> Player 2 wins </p>
-              </div>
-            ) : null}
-          </DialogContentText>
-        </DialogContent>
-        <DialogActions></DialogActions>
-      </Dialog>
+      {player1Finished && player2Finished ? (
+        <Dialog open={open} onClose={handleClose}>
+          <DialogContent>
+            <DialogContentText>
+              {player1Finished && player2Finished ? (
+                player1Guesses < player2Guesses ? (
+                  <div className="dialog_text">
+                    <p> Player 1 wins </p>
+                  </div>
+                ) : player1Guesses > player2Guesses ? (
+                  <div className="dialog_text">
+                    <p> Player 2 wins </p>
+                  </div>
+                ) : (
+                  <div className="dialog_text">
+                    <p> It's a tie! </p>
+                  </div>
+                )
+              ) : null}
+            </DialogContentText>
+          </DialogContent>
+          <DialogActions></DialogActions>
+        </Dialog>
+      ) : null}
     </div>
   );
 }
