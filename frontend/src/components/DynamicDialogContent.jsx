@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import GOAT from './gaot.jpg';
+import './DynamicDialogStyle.css';
 
 function DynamicDialogContent() {
     const image = GOAT;
@@ -16,16 +17,16 @@ function DynamicDialogContent() {
     }, []);
 
     return (
-        <DialogContent>
-            <DialogContentText>
+        <DialogContent className= "dialogdyn">
+            <DialogContentText className="dialog-text">
                 Waiting for another player{dots}
             </DialogContentText>
 
-            <DialogContentText>
+            <DialogContentText className="dialog-text">
                 Meanwhile enjoy this picture of the GOAT
             </DialogContentText>
 
-            <img src ={GOAT} alt="Descriptive Text" style={{ width: '60%', height: '60%', marginTop: '20px', marginLeft: '20%' }} />
+            <img src ={GOAT} alt="Descriptive Text" className="dialog-image" />
 
 
         </DialogContent>

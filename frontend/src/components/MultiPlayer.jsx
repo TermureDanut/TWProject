@@ -377,26 +377,26 @@ function Multiplayer({route, navigation}) {
         </div>
       </div>
       <Dialog open={open}>
-        <DialogContent>
+        <DialogContent className="dialog">
           <DialogContentText>
             {player1Finished && player2Finished ? (
               player1Guesses < player2Guesses ? (
-                <div className="dialog_text">
+                <div className="dialog-text">
                   <p> Player 1 wins </p>
-                  <button onClick={resetGame}>Play again!</button>
+                  <button className="dialog-button" onClick={resetGame}>Play again!</button>
                 </div>
               ) : player1Guesses > player2Guesses ? (
-                <div className="dialog_text">
+                <div className="dialog-text">
                   <p> Player 2 wins </p>
-                  <button onClick={resetGame}>Play again!</button>
+                  <button className="dialog-button" onClick={resetGame}>Play again!</button>
                 </div>
               ) : (
-                <div className="dialog_text">
+                <div className="dialog-text">
                   <p> It's a tie! </p>
-                  <button onClick={resetGame}>Play again!</button>
+                  <button className="dialog-button" onClick={resetGame}>Play again!</button>
                 </div>
               )
-            ) :<div className="dialog_text">
+            ) :<div className="dialog-text">
               <p> Waiting for other player to finish </p>
             </div>}
           </DialogContentText>
