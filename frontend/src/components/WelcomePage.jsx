@@ -8,6 +8,8 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DynamicDialogContent from './DynamicDialogContent';
 import logo from './logo.png';
 import anthem from './OM ANTHEM.mp3';
+import sponsor from './superbetsponsor.png';
+import bg from './bg.jpg';
 
 function WelcomePage({navigation}) {
   const navigate = useNavigate();
@@ -86,29 +88,31 @@ function WelcomePage({navigation}) {
   };
 
   return (
-    <div
-      style={{
-        marginTop: "100px",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
+      <div
+          style={{
+            marginTop: "100px",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+      >
+        <div className="img">
+          <img src={logo} alt="Logo" />
+          <p className="textClass">Powered by</p> {/* Added "powered by" text */}
+          <a href="https://superbet.ro/introducere" target="_blank"><img src={sponsor} alt="Second Image"/> </a>
+        </div>
 
-      <div className="img">
-        <img src= {logo} />
+        <button className="sp_mp_buttons" onClick={goToSingleplayer}>
+          SinglePlayer
+        </button>
+        <button className="sp_mp_buttons" onClick={goToMultiplayer}>
+          MultiPlayer
+        </button>
+        <Dialog open={open}>
+          <DynamicDialogContent />
+        </Dialog>
       </div>
-      <button className="sp_mp_buttons" onClick={goToSingleplayer}>
-        SinglePlayer
-      </button>
-      <button className="sp_mp_buttons" onClick={goToMultiplayer}>
-        MultiPlayer
-      </button>
-      <Dialog open={open}>
-        <DynamicDialogContent />
-      </Dialog>
-    </div>
   );
 
 }

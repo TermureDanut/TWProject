@@ -403,6 +403,7 @@ function Multiplayer({route, navigation}) {
         </DialogContent>
         <DialogActions></DialogActions>
       </Dialog>
+
     </div>
   );
 }
